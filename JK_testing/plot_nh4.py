@@ -36,7 +36,7 @@ omega = data2[:,0]
 speCCSD2 = (data2[:,1])
 
 data3 = np.genfromtxt('6-311Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.txt')
-CCSD3_eV = data3[:,0] * 37.3114
+CCSD3_eV = data3[:,0] * 27.3114
 fCCSD3 = (data3[:,1])
 
 data3 = np.genfromtxt('6-311Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.dat')
@@ -52,12 +52,44 @@ omega = data4[:,0]
 speCCSD4 = (data4[:,1])
 
 data5 = np.genfromtxt('6-311++Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.txt')
-CCSD5_eV = data5[:,0] * 37.3114
+CCSD5_eV = data5[:,0] * 27.3114
 fCCSD5 = (data5[:,1])
 
 data5 = np.genfromtxt('6-311++Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.dat')
 omega = data5[:,0] 
 speCCSD5 = (data5[:,1])
+
+data6 = np.genfromtxt('6-311++Gss_6-311Gss/PE_NH4_4H2O_step5000_nd_ecp_new_NH4_4H2O_step5000.out.txt')
+CCSD6_eV = data6[:,0] * 27.2114
+fCCSD6 = (data6[:,1])
+
+data6 = np.genfromtxt('6-311++Gss_6-311Gss/PE_NH4_4H2O_step5000_nd_ecp_new_NH4_4H2O_step5000.out.dat')
+omega = data6[:,0] 
+speCCSD6 = (data6[:,1])
+
+data7 = np.genfromtxt('6-311++Gss_6-311Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.txt')
+CCSD7_eV = data7[:,0] * 27.3114
+fCCSD7 = (data7[:,1])
+
+data7 = np.genfromtxt('6-311++Gss_6-311Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.dat')
+omega = data7[:,0] 
+speCCSD7 = (data7[:,1])
+
+data8 = np.genfromtxt('6-311++Gss_6-31Gss/PE_NH4_4H2O_step5000_nd_ecp_new_NH4_4H2O_step5000.out.txt')
+CCSD8_eV = data8[:,0] * 27.211
+fCCSD8 = (data8[:,1])
+
+data8 = np.genfromtxt('6-311++Gss_6-31Gss/PE_NH4_4H2O_step5000_nd_ecp_new_NH4_4H2O_step5000.out.dat')
+omega = data8[:,0] 
+speCCSD8 = (data8[:,1])
+
+data9 = np.genfromtxt('6-311++Gss_6-31Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.txt')
+CCSD9_eV = data9[:,0] * 27.3114
+fCCSD9 = (data9[:,1])
+
+data9 = np.genfromtxt('6-311++Gss_6-31Gss/PE_NH4_4H2O_step5000_nd_new_NH4_4H2O_step5000.out.dat')
+omega = data9[:,0] 
+speCCSD9 = (data9[:,1])
 
 params = {'mathtext.default': 'regular' }          
 plt.rcParams.update(params)
@@ -67,18 +99,24 @@ plt.title('$NH_{4}$ + $4H_{2}O (l)$')
 #xticks([]), yticks([])
 plt.xlim(400, 420)
 plt.ylim(0, 0.075)
-#ax1.plot(omega, speCCSD1,'k-', label='6-311G** (Marta)', linewidth=2)
-#ax2.plot(omega, speCCSD2,'r-', label='6-311G** new ecp', linewidth=2)
-#ax3.plot(omega, speCCSD3,'g-', label='6-311G** new', linewidth=2)
-#ax4.plot(omega, speCCSD4,'y-', label='6-311++G** new ecp', linewidth=2)
-#ax5.plot(omega, speCCSD5,'m-', label='6-311++G** new ', linewidth=2)
-plt.plot(omega, speCCSD0,'grey', label='6-311++G** (Marta)', linewidth=2)
-plt.plot(omega, speCCSD1,'k-', label='6-311G** (Marta)', linewidth=2)
-plt.plot(omega, speCCSD11, 'orange' , label='6-31G (Marta)', linewidth=2)
-plt.plot(omega, speCCSD2,'r-', label='6-311G** new ecp', linewidth=2)
-plt.plot(omega, speCCSD3,'g-', label='6-311G** new', linewidth=2)
-plt.plot(omega, speCCSD4,'y-', label='6-311++G** new ecp', linewidth=2)
-plt.plot(omega, speCCSD5,'m-', label='6-311++G** new ', linewidth=2)
+
+plt.xlabel('Excitation energy (eV)')
+plt.ylabel('Intensity (arb. units)')
+plt.plot(omega, speCCSD1, '#000000', label='6-311G** (Marta)', linewidth=1)
+plt.plot(omega, speCCSD0, '#2f4f4f', label='6-311++G**/6-31G** (Marta)', linewidth=1)
+plt.plot(omega, speCCSD11,'#696969' , label='6-31G** (Marta)', linewidth=1)
+
+plt.plot(omega, speCCSD2, '#000080', label='6-311G** new ecp', linewidth=1)
+plt.plot(omega, speCCSD3, '#6495ed', label='6-311G** new', linewidth=1)
+
+plt.plot(omega, speCCSD6, '#b22222', label='6-311++G**/6-31G** new ecp', linewidth=1)
+plt.plot(omega, speCCSD7, '#f08080', label='6-311++G**/6-31G** new ', linewidth=1)
+
+plt.plot(omega, speCCSD4, '#228b22', label='6-311++G** new ecp', linewidth=1)
+plt.plot(omega, speCCSD5, '#9acd32', label='6-311++G** new ', linewidth=1)
+
+plt.plot(omega, speCCSD8, '#ff8c00', label='6-311++G**/6-311G** new ecp', linewidth=1)
+plt.plot(omega, speCCSD9, '#f4a460', label='6-311++G**/6-311G** new ', linewidth=1)
 plt.legend(loc='best',fontsize='small')
 #n=len(CCSD1_eV)
 #for i in range(n):
