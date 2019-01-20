@@ -22,7 +22,7 @@ for fname in filelist:
     data = np.genfromtxt(fname)
     X = data[:,0]
     Y = data[:,1]
-    plt.plot(X,Y,'indianred', linewidth=1)
+    plt.plot(X,Y,'#ff0000', linewidth=1)
     for i in range(0,len(Y),1):
         YT[i] += Y [i]
 
@@ -34,13 +34,13 @@ for fname_ip in filelist_ip:
     n_ip += 1
     ip = np.genfromtxt(fname_ip)
     ip_T += ip
-    plt.plot([ip,ip],[0,1],'darkred',linewidth=1.0)
+    plt.plot([ip,ip],[0,1],'#f75454',linewidth=1.0)
 
 YT /= n
 ip_T /= n_ip
 
-plt.plot(X,YT,'k-', linewidth=2)
 plt.plot([ip_T,ip_T],[0,1],'k-', linewidth=2)
+plt.plot(X,YT,'k-', linewidth=2)
 for i in range(0, len(X), 1):
     print X[i], YT[i]
 plt.xlim(400, 420)
