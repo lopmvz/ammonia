@@ -142,8 +142,8 @@
   Hans Agren,               KTH Stockholm,                Sweden      (SIRIUS module, RESPONS, MC-SCRF solvation model)
  --------------------------------------------------------------------------------
 
-     Date and time (Linux)  : Sat Dec  1 16:59:40 2018
-     Host name              : n-62-23-15                              
+     Date and time (Linux)  : Sat Jan 12 21:53:25 2019
+     Host name              : n-62-29-33                              
 
  * Work memory size             :  1280000000 =  9.537 gigabytes.
 
@@ -1087,20 +1087,20 @@ H          3.445225       -1.237721       -0.599010
       z     -4.49948137       -11.43654015       -38.14819168
 
 
-  Time used in HUCKEL     is       0.42 seconds
-  Time used in OVERLAP    is       0.12 seconds
-  Time used in POPOVLP    is       0.15 seconds
-  Time used in DIPLEN     is       0.13 seconds
-  Time used in QUADRUP    is       0.79 seconds
-  Time used in KINENE     is       0.16 seconds
+  Time used in HUCKEL     is       1.33 seconds
+  Time used in OVERLAP    is       0.19 seconds
+  Time used in POPOVLP    is       0.25 seconds
+  Time used in DIPLEN     is       0.36 seconds
+  Time used in QUADRUP    is       1.87 seconds
+  Time used in KINENE     is       0.58 seconds
 
  Threshold for neglecting two-electron integrals:  1.00D-12
  HERMIT - Number of two-electron integrals written:    38806160 ( 44.5% )
  HERMIT - Megabytes written:                            444.348
 
-  Time used in TWOINT     is      17.28 seconds
-  Total CPU  time used in HERMIT:  19.11 seconds
-  Total wall time used in HERMIT:   7.56 seconds
+  Time used in TWOINT     is      17.49 seconds
+  Total CPU  time used in HERMIT:  22.13 seconds
+  Total wall time used in HERMIT:   9.01 seconds
 
 
                         .----------------------------------.
@@ -1145,8 +1145,8 @@ NCCEXCI for singlet:   15
  **********************************************************************
 
  
-     Date and time (Linux)  : Sat Dec  1 16:59:50 2018
-     Host name              : n-62-23-15                              
+     Date and time (Linux)  : Sat Jan 12 21:53:35 2019
+     Host name              : n-62-29-33                              
 
  Title lines from ".mol" input file:
                                                                              
@@ -1214,7 +1214,7 @@ NCCEXCI for singlet:   15
  -One-photon absorption strengths will be calculated
  -Oscillator strengths calculated
   
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  REORTHO 
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  REORTHO 
 
 
  ***********************************************
@@ -1231,8 +1231,8 @@ NCCEXCI for singlet:   15
 Calculating AOSUPINT
      (Precalculated two-electron integrals are transformed to P-supermatrix elements.
       Threshold for discarding integrals :  1.00D-12 )
-  CPU  time used in FORMSUP    is   4.94 seconds
-  WALL time used in FORMSUP    is   8.49 seconds
+  CPU  time used in FORMSUP    is   9.28 seconds
+  WALL time used in FORMSUP    is  11.58 seconds
 
  ITDIIS, energy, error norm, change in energy, scr.thr., difden:
 @ DIIS iter.   1    -360.181940455        3.96971D+00   -3.60D+02  -20    F
@@ -1248,7 +1248,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.58D+01
     1.000000
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   1
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   1
       Virial theorem: -V/T =      2.003121
 @      MULPOP N       0.15; H       0.16; H       0.17; H       0.17; H       0.15; O      -0.61; O      -0.58; O      -0.63; O      -0.59; H       0.34; 
 @             H       0.34; H       0.32; H       0.33; H       0.32; H       0.33; H       0.33; H       0.31; 
@@ -1288,8 +1288,8 @@ Calculating AOSUPINT
         5.69617        5.73496        5.75960        5.87764        5.95670
         5.96421        6.00025       36.28132       51.44906       51.45730
        51.45964       51.47078
- Time used in FCKEIG, thr_jaco:   6.98D-01  7.80D-02  1.70D-04
- CPU and wall times used in FCKEIG, THR_FCKEIG:   6.98D-01  7.80D-02  3.97D-02
+ Time used in FCKEIG, thr_jaco:   5.30D-01  5.30D-02  1.70D-04
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   5.30D-01  5.30D-02  3.97D-02
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    2
@@ -1311,7 +1311,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.27D+00
     0.042104    0.957896
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   2
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   2
       Virial theorem: -V/T =      2.003072
 @      MULPOP N      -0.54; H       0.32; H       0.33; H       0.35; H       0.33; O      -0.55; O      -0.58; O      -0.58; O      -0.59; H       0.30; 
 @             H       0.32; H       0.33; H       0.32; H       0.31; H       0.29; H       0.33; H       0.30; 
@@ -1351,8 +1351,8 @@ Calculating AOSUPINT
         5.70044        5.73928        5.75540        5.87790        5.97071
         5.97601        6.01987       36.98149       51.38576       51.38747
        51.41504       51.42657
- Time used in FCKEIG, thr_jaco:   4.77D-01  5.40D-02  4.86D-05
- CPU and wall times used in FCKEIG, THR_FCKEIG:   4.78D-01  5.40D-02  1.14D-02
+ Time used in FCKEIG, thr_jaco:   4.94D-01  5.10D-02  4.86D-05
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   4.94D-01  5.10D-02  1.14D-02
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    3
@@ -1375,7 +1375,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -9.99D-02
    -0.046223    0.108890    0.937333
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   3
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   3
       Virial theorem: -V/T =      2.003712
 @      MULPOP N      -0.35; H       0.28; H       0.30; H       0.32; H       0.27; O      -0.62; O      -0.64; O      -0.63; O      -0.66; H       0.33; 
 @             H       0.35; H       0.35; H       0.34; H       0.34; H       0.31; H       0.36; H       0.33; 
@@ -1415,8 +1415,8 @@ Calculating AOSUPINT
         5.73220        5.76983        5.79164        5.91812        5.99907
         6.00354        6.05312       36.77464       51.42451       51.44318
        51.45564       51.46319
- Time used in FCKEIG, thr_jaco:   4.36D-01  4.80D-02  1.64D-05
- CPU and wall times used in FCKEIG, THR_FCKEIG:   4.36D-01  4.80D-02  3.85D-03
+ Time used in FCKEIG, thr_jaco:   3.18D-01  3.10D-02  1.64D-05
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   3.18D-01  3.10D-02  3.85D-03
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    4
@@ -1440,7 +1440,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -4.58D-03
    -0.000655   -0.064676    0.001907    1.063424
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   4
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   4
       Virial theorem: -V/T =      2.003680
 @      MULPOP N      -0.43; H       0.30; H       0.32; H       0.34; H       0.29; O      -0.63; O      -0.65; O      -0.64; O      -0.67; H       0.33; 
 @             H       0.36; H       0.36; H       0.35; H       0.34; H       0.32; H       0.37; H       0.34; 
@@ -1480,8 +1480,8 @@ Calculating AOSUPINT
         5.72646        5.76428        5.78376        5.90870        5.99421
         5.99801        6.04661       36.80910       51.41523       51.42541
        51.44314       51.45211
- Time used in FCKEIG, thr_jaco:   3.70D-01  4.10D-02  4.14D-06
- CPU and wall times used in FCKEIG, THR_FCKEIG:   3.70D-01  4.10D-02  9.70D-04
+ Time used in FCKEIG, thr_jaco:   3.24D-01  3.20D-02  4.14D-06
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   3.25D-01  3.20D-02  9.70D-04
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    5
@@ -1506,7 +1506,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -6.05D-04
     0.001121   -0.010111   -0.043830    0.059398    0.993421
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   5
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   5
       Virial theorem: -V/T =      2.003368
 @      MULPOP N      -0.41; H       0.30; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.65; O      -0.68; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.34; 
@@ -1546,8 +1546,8 @@ Calculating AOSUPINT
         5.73093        5.76747        5.78830        5.91352        5.99611
         6.00048        6.05090       36.81239       51.41920       51.43441
        51.45029       51.45780
- Time used in FCKEIG, thr_jaco:   3.62D-01  4.00D-02  1.25D-06
- CPU and wall times used in FCKEIG, THR_FCKEIG:   3.63D-01  4.00D-02  2.93D-04
+ Time used in FCKEIG, thr_jaco:   2.88D-01  2.90D-02  1.25D-06
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.88D-01  2.90D-02  2.93D-04
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    6
@@ -1573,7 +1573,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -3.90D-05
     0.000799    0.007762   -0.011483   -0.138611    0.150835    0.990697
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   6
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   6
       Virial theorem: -V/T =      2.003602
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.65; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -1612,8 +1612,8 @@ Calculating AOSUPINT
         5.72950        5.76645        5.78680        5.91184        5.99545
         5.99962        6.04942       36.81027       51.41806       51.43138
        51.44805       51.45597
- Time used in FCKEIG, thr_jaco:   4.04D-01  4.50D-02  4.78D-07
- CPU and wall times used in FCKEIG, THR_FCKEIG:   4.06D-01  4.50D-02  1.12D-04
+ Time used in FCKEIG, thr_jaco:   3.27D-01  3.30D-02  4.78D-07
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   3.27D-01  3.30D-02  1.12D-04
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    7
@@ -1643,7 +1643,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.30D-06
    -0.000245   -0.001080    0.005963    0.026538   -0.115642   -0.127542    1.212009
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   7
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   7
       Virial theorem: -V/T =      2.003540
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -1682,8 +1682,8 @@ Calculating AOSUPINT
         5.72972        5.76659        5.78705        5.91211        5.99553
         5.99972        6.04963       36.81069       51.41816       51.43185
        51.44833       51.45616
- Time used in FCKEIG, thr_jaco:   3.37D-01  3.70D-02  1.02D-07
- CPU and wall times used in FCKEIG, THR_FCKEIG:   3.38D-01  3.70D-02  2.38D-05
+ Time used in FCKEIG, thr_jaco:   2.69D-01  2.70D-02  1.02D-07
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.69D-01  2.70D-02  2.38D-05
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    8
@@ -1715,7 +1715,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -8.35D-08
     0.000004    0.000039   -0.000627   -0.001322    0.016902   -0.011203   -0.199452    1.195659
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   8
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   8
       Virial theorem: -V/T =      2.003557
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -1754,8 +1754,8 @@ Calculating AOSUPINT
         5.72971        5.76660        5.78700        5.91205        5.99556
         5.99975        6.04963       36.81068       51.41822       51.43175
        51.44835       51.45620
- Time used in FCKEIG, thr_jaco:   2.35D-01  2.70D-02  1.66D-08
- CPU and wall times used in FCKEIG, THR_FCKEIG:   2.36D-01  2.70D-02  3.88D-06
+ Time used in FCKEIG, thr_jaco:   2.75D-01  2.80D-02  1.66D-08
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.76D-01  2.80D-02  3.88D-06
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number    9
@@ -1787,7 +1787,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.09D-08
     0.839787    0.000046   -0.000248   -0.001145    0.007179    0.001533   -0.083859    0.236708
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS   9
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS   9
       Virial theorem: -V/T =      2.003557
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -1826,8 +1826,8 @@ Calculating AOSUPINT
         5.72971        5.76659        5.78702        5.91208        5.99555
         5.99973        6.04962       36.81068       51.41819       51.43179
        51.44833       51.45617
- Time used in FCKEIG, thr_jaco:   2.33D-01  2.60D-02  5.64D-09
- CPU and wall times used in FCKEIG, THR_FCKEIG:   2.33D-01  2.60D-02  1.32D-06
+ Time used in FCKEIG, thr_jaco:   2.85D-01  2.80D-02  5.64D-09
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.85D-01  2.80D-02  1.32D-06
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number   10
@@ -1859,7 +1859,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -3.33D-10
     0.090440    1.044104    0.000062    0.000014   -0.001475    0.002023    0.018409   -0.153576
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS  10
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS  10
       Virial theorem: -V/T =      2.003556
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -1898,8 +1898,8 @@ Calculating AOSUPINT
         5.72971        5.76659        5.78701        5.91207        5.99555
         5.99974        6.04962       36.81069       51.41820       51.43178
        51.44833       51.45618
- Time used in FCKEIG, thr_jaco:   2.32D-01  2.60D-02  1.87D-09
- CPU and wall times used in FCKEIG, THR_FCKEIG:   2.32D-01  2.60D-02  4.37D-07
+ Time used in FCKEIG, thr_jaco:   2.97D-01  3.00D-02  1.87D-09
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.98D-01  3.00D-02  4.37D-07
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number   11
@@ -1931,7 +1931,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.92D-11
    -0.041408   -0.120598    1.150745    0.000016   -0.000013   -0.000325    0.000726    0.010859
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS  11
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS  11
       Virial theorem: -V/T =      2.003557
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -1970,8 +1970,8 @@ Calculating AOSUPINT
         5.72971        5.76659        5.78701        5.91207        5.99555
         5.99974        6.04962       36.81069       51.41820       51.43178
        51.44833       51.45618
- Time used in FCKEIG, thr_jaco:   2.50D-01  2.80D-02  3.42D-10
- CPU and wall times used in FCKEIG, THR_FCKEIG:   2.50D-01  2.80D-02  8.00D-08
+ Time used in FCKEIG, thr_jaco:   2.60D-01  2.60D-02  3.42D-10
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.61D-01  2.60D-02  8.00D-08
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number   12
@@ -1979,7 +1979,7 @@ Calculating AOSUPINT
                      1
 
  ITDIIS, energy, error norm, change in energy, scr.thr., difden:
-@ DIIS iter.  12    -361.156812005        1.46211D-06   -4.89D-12  -20    F
+@ DIIS iter.  12    -361.156812005        1.46211D-06   -4.77D-12  -20    F
 
  (DIIS_RED) Control Parameters C2DIIS =         F NEVC =    8
 
@@ -1990,11 +1990,11 @@ Calculating AOSUPINT
        1     1.743152D-08
        2    -1.100874D-09   1.906247D-09
        3     3.969580D-10   6.100272D-11   3.773205D-11
-       4     3.233109D-11   1.666719D-11   6.124876D-12   2.137768D-12
-       5     6.502541D-09  -4.912801D-08  -2.826623D-08  -2.250932D-09   8.593900D-04
-       6     2.841592D-09   1.953388D-08   1.225935D-08   3.657731D-10   4.047839D-05   1.254157D-04
+       4     3.233107D-11   1.666719D-11   6.124875D-12   2.137768D-12
+       5     6.502540D-09  -4.912801D-08  -2.826623D-08  -2.250932D-09   8.593900D-04
+       6     2.841592D-09   1.953388D-08   1.225935D-08   3.657736D-10   4.047839D-05   1.254157D-04
        7     7.673115D-08   1.180452D-08  -2.306923D-09  -1.054509D-10   4.759997D-05   8.568897D-07
-       8     8.235734D-09   1.180003D-08   3.989059D-10   4.158708D-11   1.148876D-07   1.884692D-06
+       8     8.235733D-09   1.180003D-08   3.989059D-10   4.158709D-11   1.148876D-07   1.884692D-06
 
                Column   7     Column   8
        7     5.663669D-06
@@ -2003,7 +2003,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.40D-12
     0.000929   -0.012701   -0.162673    1.172949    0.000009   -0.000013   -0.000212    0.001712
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS  12
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS  12
       Virial theorem: -V/T =      2.003556
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -2042,8 +2042,8 @@ Calculating AOSUPINT
         5.72971        5.76659        5.78701        5.91207        5.99555
         5.99974        6.04962       36.81069       51.41820       51.43178
        51.44833       51.45618
- Time used in FCKEIG, thr_jaco:   2.29D-01  2.60D-02  3.42D-10
- CPU and wall times used in FCKEIG, THR_FCKEIG:   2.29D-01  2.60D-02  8.00D-08
+ Time used in FCKEIG, thr_jaco:   2.70D-01  2.70D-02  3.42D-10
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.71D-01  2.70D-02  8.00D-08
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number   13
@@ -2051,7 +2051,7 @@ Calculating AOSUPINT
                      1
 
  ITDIIS, energy, error norm, change in energy, scr.thr., difden:
-@ DIIS iter.  13    -361.156812005        4.95099D-07   -1.14D-13  -20    F
+@ DIIS iter.  13    -361.156812005        4.95099D-07    0.00D+00  -20    F
 
  (DIIS_RED) Control Parameters C2DIIS =         F NEVC =    8
 
@@ -2062,11 +2062,11 @@ Calculating AOSUPINT
        1     1.743152D-08
        2    -1.100874D-09   1.906247D-09
        3     3.969580D-10   6.100272D-11   3.773205D-11
-       4     3.233109D-11   1.666719D-11   6.124876D-12   2.137768D-12
-       5     4.275153D-12   2.283629D-12   1.338551D-12   3.053049D-13   2.451233D-13
-       6     2.841592D-09   1.953388D-08   1.225935D-08   3.657731D-10  -2.546212D-10   1.254157D-04
-       7     7.673115D-08   1.180452D-08  -2.306923D-09  -1.054509D-10   7.789833D-11   8.568897D-07
-       8     8.235734D-09   1.180003D-08   3.989059D-10   4.158708D-11   7.107808D-13   1.884692D-06
+       4     3.233107D-11   1.666719D-11   6.124875D-12   2.137768D-12
+       5     4.275144D-12   2.283632D-12   1.338551D-12   3.053049D-13   2.451233D-13
+       6     2.841592D-09   1.953388D-08   1.225935D-08   3.657736D-10  -2.546219D-10   1.254157D-04
+       7     7.673115D-08   1.180452D-08  -2.306923D-09  -1.054509D-10   7.789844D-11   8.568897D-07
+       8     8.235733D-09   1.180003D-08   3.989059D-10   4.158709D-11   7.107958D-13   1.884692D-06
 
                Column   7     Column   8
        7     5.663669D-06
@@ -2075,7 +2075,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.71D-13
     0.001796    0.002139   -0.077909    0.118819    0.955275    0.000010   -0.000069   -0.000061
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS  13
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS  13
       Virial theorem: -V/T =      2.003556
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -2114,8 +2114,8 @@ Calculating AOSUPINT
         5.72971        5.76659        5.78701        5.91207        5.99555
         5.99974        6.04962       36.81069       51.41820       51.43178
        51.44833       51.45618
- Time used in FCKEIG, thr_jaco:   1.97D-01  2.20D-02  3.42D-10
- CPU and wall times used in FCKEIG, THR_FCKEIG:   1.98D-01  2.20D-02  8.00D-08
+ Time used in FCKEIG, thr_jaco:   2.85D-01  2.90D-02  3.42D-10
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.85D-01  2.90D-02  8.00D-08
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number   14
@@ -2123,7 +2123,7 @@ Calculating AOSUPINT
                      1
 
  ITDIIS, energy, error norm, change in energy, scr.thr., difden:
-@ DIIS iter.  14    -361.156812005        2.06423D-07   -3.41D-13  -20    F
+@ DIIS iter.  14    -361.156812005        2.06423D-07   -1.14D-13  -20    F
 
  (DIIS_RED) Control Parameters C2DIIS =         F NEVC =    8
 
@@ -2134,11 +2134,11 @@ Calculating AOSUPINT
        1     1.743152D-08
        2    -1.100874D-09   1.906247D-09
        3     3.969580D-10   6.100272D-11   3.773205D-11
-       4     3.233109D-11   1.666719D-11   6.124876D-12   2.137768D-12
-       5     4.275153D-12   2.283629D-12   1.338551D-12   3.053049D-13   2.451233D-13
-       6    -1.276053D-12  -2.319027D-13   9.544156D-14   1.617412D-13  -2.170164D-15   4.261043D-14
-       7     7.673115D-08   1.180452D-08  -2.306923D-09  -1.054509D-10   7.789833D-11   4.483727D-11
-       8     8.235734D-09   1.180003D-08   3.989059D-10   4.158708D-11   7.107808D-13  -3.445923D-12
+       4     3.233107D-11   1.666719D-11   6.124875D-12   2.137768D-12
+       5     4.275144D-12   2.283632D-12   1.338551D-12   3.053049D-13   2.451233D-13
+       6    -1.276040D-12  -2.319056D-13   9.544187D-14   1.617413D-13  -2.170203D-15   4.261048D-14
+       7     7.673115D-08   1.180452D-08  -2.306923D-09  -1.054509D-10   7.789844D-11   4.483723D-11
+       8     8.235733D-09   1.180003D-08   3.989059D-10   4.158709D-11   7.107958D-13  -3.445942D-12
 
                Column   7     Column   8
        7     5.663669D-06
@@ -2147,7 +2147,7 @@ Calculating AOSUPINT
 
  DIIS C vector; C2DIIS = F, LAMBDA = -1.93D-14
     0.000301    0.001278    0.004230   -0.114384    0.193704    0.914928   -0.000014   -0.000042
-* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info:  1Dec18  DIIS  14
+* Read MO coefficients from SIRIUS.RST with label "NEWORB  " and header info: 12Jan19  DIIS  14
       Virial theorem: -V/T =      2.003556
 @      MULPOP N      -0.41; H       0.29; H       0.31; H       0.34; H       0.29; O      -0.64; O      -0.66; O      -0.66; O      -0.69; H       0.34; 
 @             H       0.36; H       0.36; H       0.36; H       0.35; H       0.32; H       0.38; H       0.35; 
@@ -2186,8 +2186,8 @@ Calculating AOSUPINT
         5.72971        5.76659        5.78701        5.91207        5.99555
         5.99974        6.04962       36.81069       51.41820       51.43178
        51.44833       51.45618
- Time used in FCKEIG, thr_jaco:   1.51D-01  1.70D-02  3.42D-10
- CPU and wall times used in FCKEIG, THR_FCKEIG:   1.51D-01  1.70D-02  8.00D-08
+ Time used in FCKEIG, thr_jaco:   2.14D-01  2.20D-02  3.42D-10
+ CPU and wall times used in FCKEIG, THR_FCKEIG:   2.15D-01  2.20D-02  8.00D-08
  -----------------------------------------------------------------------------
 
  *** DIIS iteration number   15
@@ -2195,7 +2195,7 @@ Calculating AOSUPINT
                      1
 
  ITDIIS, energy, error norm, change in energy, scr.thr., difden:
-@ DIIS iter.  15    -361.156812005        5.98268D-08    2.27D-13  -20    F
+@ DIIS iter.  15    -361.156812005        5.98269D-08    0.00D+00  -20    F
 
 @ *** DIIS converged in  15 iterations !
 @     Converged SCF energy, gradient:   -361.156812005128    5.98D-08
@@ -2254,7 +2254,7 @@ Calculating AOSUPINT
 
  --- Writing SIRIFC interface file
 
- CPU and wall time for SCF :     854.729     164.715
+ CPU and wall time for SCF :     766.713     139.119
 
 
                        .-----------------------------------.
@@ -2283,10 +2283,10 @@ Calculating AOSUPINT
 @    Final gradient norm:           0.000000059827
 
  
-     Date and time (Linux)  : Sat Dec  1 17:02:35 2018
-     Host name              : n-62-23-15                              
+     Date and time (Linux)  : Sat Jan 12 21:55:54 2019
+     Host name              : n-62-29-33                              
 
-File label for MO orbitals:   1Dec18   FOCKDIIS
+File label for MO orbitals:  12Jan19   FOCKDIIS
 
  Molecular orbitals for symmetry species 1  (A  )
  ------------------------------------------------
@@ -6220,12 +6220,12 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  161 H   :2py   -0.0008
  162 H   :2pz   -0.0005
 
-  Total CPU  time used in SIRIUS : 14 minutes 17 seconds
-  Total wall time used in SIRIUS :  2 minutes 45 seconds
+  Total CPU  time used in SIRIUS : 12 minutes 50 seconds
+  Total wall time used in SIRIUS :  2 minutes 20 seconds
 
  
-     Date and time (Linux)  : Sat Dec  1 17:02:35 2018
-     Host name              : n-62-23-15                              
+     Date and time (Linux)  : Sat Jan 12 21:55:54 2019
+     Host name              : n-62-29-33                              
 
 
                      .---------------------------------------.
@@ -6275,20 +6275,20 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
           Number of t2 amplitudes                 :   4140003
           Total number of amplitudes in ccsd      :   4142880
  
- Iter.  1: Coupled cluster MP2   energy :    -362.2688631435482307
- Iter.  1: Coupled cluster CCSD  energy :    -362.2812887285202805
- Iter.  2: Coupled cluster CCSD  energy :    -362.3049832217785706
- Iter.  3: Coupled cluster CCSD  energy :    -362.3099087372689269
- Iter.  4: Coupled cluster CCSD  energy :    -362.3096083601114401
+ Iter.  1: Coupled cluster MP2   energy :    -362.2688631435452180
+ Iter.  1: Coupled cluster CCSD  energy :    -362.2812887285212469
+ Iter.  2: Coupled cluster CCSD  energy :    -362.3049832217732842
+ Iter.  3: Coupled cluster CCSD  energy :    -362.3099087372708027
+ Iter.  4: Coupled cluster CCSD  energy :    -362.3096083601145097
 
  CCSD energy will not be converged further
 
  right now in CCSLV calc.
  Accumulated inner iterations at this point are     4
 
- CCSD  energy converged to within   0.10D-09 is         -362.309608360111
+ CCSD  energy converged to within   0.10D-09 is         -362.309608360115
  Final 2-norm of the CC vector function:  4.18723428D-03
-  Change in norm^2 of T-amplitudes in this solvent it.:  0.140389784021784     
+  Change in norm^2 of T-amplitudes in this solvent it.:  0.140389784021771     
 
 
 
@@ -6352,11 +6352,11 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
     Iter  #Vectors  time (min)   residual
     --------------------------------------
-      1       1         9.78     0.58E+00
-      2       1        10.24     0.14E+00
-      3       1        12.22     0.32E-01
-      4       1        10.75     0.11E-01
-      5       1        10.86     0.23E-02
+      1       1         7.70     0.58E+00
+      2       1         7.48     0.14E+00
+      3       1         7.60     0.32E-01
+      4       1         7.58     0.11E-01
+      5       1         7.74     0.23E-02
   CCSLV: We stop for now though not fully converged yet
   Accumulated inner iterations are:                     9
     --------------------------------------
@@ -6366,22 +6366,22 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV           53.84
-         CCRED               0.46
-         CCNEX               0.65
+         CC_TRDRV           38.10
+         CCRED               0.45
+         CCNEX               0.54
          ---------------------------
-         Total time         54.96
+         Total time         39.09
 
 
-  Total CPU  time used in CCEQ_SOLV: 54 minutes 57 seconds
-  Total wall time used in CCEQ_SOLV:  6 minutes  0 seconds
+  Total CPU  time used in CCEQ_SOLV: 39 minutes  5 seconds
+  Total wall time used in CCEQ_SOLV:  4 minutes 15 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  Change in norm^2 of L-amplitudes in this ccmm it.:  0.939986232602461     
-  Time used in LR=R       is       4.72 seconds
- Total <Lambda|H|CC> energy:   -362.314067800501     
+  Change in norm^2 of L-amplitudes in this ccmm it.:  0.939986232602421     
+  Time used in LR=R       is       2.89 seconds
+ Total <Lambda|H|CC> energy:   -362.314067800505     
             The singles contribution is:            -0.0024359254
             The doubles contribution is:            -0.0020235150
  CCFOP: call CC_D1AO to recalc the 1e Density
@@ -6427,20 +6427,20 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
           Number of t2 amplitudes                 :   4140003
           Total number of amplitudes in ccsd      :   4142880
  
- Iter.  1: Coupled cluster RSTAR energy :    -362.3096083601114401
- Iter.  1: Coupled cluster CCSD  energy :    -362.3096974038067515
- Iter.  2: Coupled cluster CCSD  energy :    -362.3097165603921326
- Iter.  3: Coupled cluster CCSD  energy :    -362.3097369181220984
- Iter.  4: Coupled cluster CCSD  energy :    -362.3097523437912741
+ Iter.  1: Coupled cluster RSTAR energy :    -362.3096083601145097
+ Iter.  1: Coupled cluster CCSD  energy :    -362.3096974038131179
+ Iter.  2: Coupled cluster CCSD  energy :    -362.3097165603940084
+ Iter.  3: Coupled cluster CCSD  energy :    -362.3097369181221552
+ Iter.  4: Coupled cluster CCSD  energy :    -362.3097523437929794
 
  CCSD energy will not be converged further
 
  right now in CCSLV calc.
  Accumulated inner iterations at this point are    13
 
- CCSD  energy converged to within   0.10D-09 is         -362.309752343791
+ CCSD  energy converged to within   0.10D-09 is         -362.309752343793
  Final 2-norm of the CC vector function:  8.04851685D-05
-  Change in norm^2 of T-amplitudes in this solvent it.:  2.295006477371075E-004
+  Change in norm^2 of T-amplitudes in this solvent it.:  2.295006477386341E-004
 
 
 
@@ -6505,11 +6505,11 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
     Iter  #Vectors  time (min)   residual
     --------------------------------------
-      1       1        12.25     0.30E-02
-      2       1        13.28     0.16E-02
-      3       1        11.96     0.45E-03
-      4       1        12.50     0.18E-03
-      5       1        12.81     0.63E-04
+      1       1         7.69     0.30E-02
+      2       1         7.51     0.16E-02
+      3       1         7.62     0.45E-03
+      4       1         7.48     0.18E-03
+      5       1         7.67     0.63E-04
   CCSLV: We stop for now though not fully converged yet
   Accumulated inner iterations are:                    18
     --------------------------------------
@@ -6519,22 +6519,22 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV           62.81
-         CCRED               0.47
-         CCNEX               0.46
+         CC_TRDRV           37.98
+         CCRED               0.43
+         CCNEX               0.55
          ---------------------------
-         Total time         63.74
+         Total time         38.96
 
 
-  Total CPU  time used in CCEQ_SOLV:   1 hour   3 minutes 45 seconds
-  Total wall time used in CCEQ_SOLV:  8 minutes 22 seconds
+  Total CPU  time used in CCEQ_SOLV: 38 minutes 58 seconds
+  Total wall time used in CCEQ_SOLV:  4 minutes 14 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  Change in norm^2 of L-amplitudes in this ccmm it.:  1.751045340575574E-004
-  Time used in LR=R       is       6.07 seconds
- Total <Lambda|H|CC> energy:   -362.314559427717     
+  Change in norm^2 of L-amplitudes in this ccmm it.:  1.751045340830926E-004
+  Time used in LR=R       is       3.07 seconds
+ Total <Lambda|H|CC> energy:   -362.314559427719     
             The singles contribution is:            -0.0025041019
             The doubles contribution is:            -0.0023029820
  CCFOP: call CC_D1AO to recalc the 1e Density
@@ -6580,20 +6580,20 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
           Number of t2 amplitudes                 :   4140003
           Total number of amplitudes in ccsd      :   4142880
  
- Iter.  1: Coupled cluster RSTAR energy :    -362.3097523437912741
- Iter.  1: Coupled cluster CCSD  energy :    -362.3097520647400529
- Iter.  2: Coupled cluster CCSD  energy :    -362.3097532352264807
- Iter.  3: Coupled cluster CCSD  energy :    -362.3097532878932157
- Iter.  4: Coupled cluster CCSD  energy :    -362.3097531853395594
+ Iter.  1: Coupled cluster RSTAR energy :    -362.3097523437929794
+ Iter.  1: Coupled cluster CCSD  energy :    -362.3097520647407350
+ Iter.  2: Coupled cluster CCSD  energy :    -362.3097532352315966
+ Iter.  3: Coupled cluster CCSD  energy :    -362.3097532878948073
+ Iter.  4: Coupled cluster CCSD  energy :    -362.3097531853351256
 
  CCSD energy will not be converged further
 
  right now in CCSLV calc.
  Accumulated inner iterations at this point are    22
 
- CCSD  energy converged to within   0.10D-09 is         -362.309753185340
- Final 2-norm of the CC vector function:  4.47223894D-06
-  Change in norm^2 of T-amplitudes in this solvent it.:  2.855891063024973E-006
+ CCSD  energy converged to within   0.10D-09 is         -362.309753185335
+ Final 2-norm of the CC vector function:  4.47223893D-06
+  Change in norm^2 of T-amplitudes in this solvent it.:  2.855891057362836E-006
 
 
 
@@ -6658,11 +6658,11 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
     Iter  #Vectors  time (min)   residual
     --------------------------------------
-      1       1        12.29     0.13E-03
-      2       1        10.74     0.76E-04
-      3       1        11.03     0.24E-04
-      4       1         9.63     0.10E-04
-      5       1         9.72     0.34E-05
+      1       1         7.65     0.13E-03
+      2       1         7.79     0.76E-04
+      3       1         7.64     0.24E-04
+      4       1         7.54     0.10E-04
+      5       1         7.74     0.34E-05
   CCSLV: We stop for now though not fully converged yet
   Accumulated inner iterations are:                    27
     --------------------------------------
@@ -6672,22 +6672,22 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV           53.40
-         CCRED               0.30
-         CCNEX               0.43
+         CC_TRDRV           38.35
+         CCRED               0.39
+         CCNEX               0.52
          ---------------------------
-         Total time         54.13
+         Total time         39.26
 
 
-  Total CPU  time used in CCEQ_SOLV: 54 minutes  8 seconds
-  Total wall time used in CCEQ_SOLV:  5 minutes 55 seconds
+  Total CPU  time used in CCEQ_SOLV: 39 minutes 16 seconds
+  Total wall time used in CCEQ_SOLV:  4 minutes 15 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  Change in norm^2 of L-amplitudes in this ccmm it.:  1.445684179923745E-005
-  Time used in LR=R       is       3.84 seconds
- Total <Lambda|H|CC> energy:   -362.314550378461     
+  Change in norm^2 of L-amplitudes in this ccmm it.:  1.445684178491558E-005
+  Time used in LR=R       is       3.24 seconds
+ Total <Lambda|H|CC> energy:   -362.314550378456     
             The singles contribution is:            -0.0025095024
             The doubles contribution is:            -0.0022876908
  CCFOP: call CC_D1AO to recalc the 1e Density
@@ -6733,10 +6733,10 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
           Number of t2 amplitudes                 :   4140003
           Total number of amplitudes in ccsd      :   4142880
  
- Iter.  1: Coupled cluster RSTAR energy :    -362.3097531853395594
- Iter.  1: Coupled cluster CCSD  energy :    -362.3097532444972444
- Iter.  2: Coupled cluster CCSD  energy :    -362.3097532847551747
- Iter.  3: Coupled cluster CCSD  energy :    -362.3097532992073297
+ Iter.  1: Coupled cluster RSTAR energy :    -362.3097531853351256
+ Iter.  1: Coupled cluster CCSD  energy :    -362.3097532444927538
+ Iter.  2: Coupled cluster CCSD  energy :    -362.3097532847560842
+ Iter.  3: Coupled cluster CCSD  energy :    -362.3097532992123888
  Iter.  4: Coupled cluster CCSD  energy :    -362.3097533080604080
 
  CCSD energy will not be converged further
@@ -6745,8 +6745,8 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  Accumulated inner iterations at this point are    31
 
  CCSD  energy converged to within   0.10D-09 is         -362.309753308060
- Final 2-norm of the CC vector function:  2.23798690D-07
-  Change in norm^2 of T-amplitudes in this solvent it.:  2.054526014594327E-007
+ Final 2-norm of the CC vector function:  2.23798686D-07
+  Change in norm^2 of T-amplitudes in this solvent it.:  2.054526052341910E-007
 
 
 
@@ -6811,11 +6811,11 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
     Iter  #Vectors  time (min)   residual
     --------------------------------------
-      1       1         9.63     0.70E-05
-      2       1         9.60     0.42E-05
-      3       1         9.57     0.13E-05
-      4       1         9.62     0.56E-06
-      5       1        10.05     0.20E-06
+      1       1         7.53     0.70E-05
+      2       1         7.50     0.42E-05
+      3       1         7.46     0.13E-05
+      4       1         7.54     0.56E-06
+      5       1         7.47     0.20E-06
   CCSLV: We stop for now though not fully converged yet
   Accumulated inner iterations are:                    36
     --------------------------------------
@@ -6825,21 +6825,21 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV           48.46
-         CCRED               0.32
-         CCNEX               0.44
+         CC_TRDRV           37.49
+         CCRED               0.40
+         CCNEX               0.54
          ---------------------------
-         Total time         49.22
+         Total time         38.43
 
 
-  Total CPU  time used in CCEQ_SOLV: 49 minutes 13 seconds
-  Total wall time used in CCEQ_SOLV:  5 minutes  7 seconds
+  Total CPU  time used in CCEQ_SOLV: 38 minutes 26 seconds
+  Total wall time used in CCEQ_SOLV:  4 minutes 11 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  Change in norm^2 of L-amplitudes in this ccmm it.:  7.317512192850373E-007
-  Time used in LR=R       is       3.79 seconds
+  Change in norm^2 of L-amplitudes in this ccmm it.:  7.317512304982898E-007
+  Time used in LR=R       is       3.51 seconds
  Total <Lambda|H|CC> energy:   -362.314550821557     
             The singles contribution is:            -0.0025097952
             The doubles contribution is:            -0.0022877183
@@ -6860,7 +6860,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  E(QM/MM) contribution in iteration  3:           -0.3853393661
  CC energy in the  current CCMM iteration:      -362.6998901877
  CC energy in the previous CCMM iteration:      -362.6998904939
- Change in Total energy in this CCMM it.:          0.306195E-06
+ Change in Total energy in this CCMM it.:          0.306191E-06
 
 
  *****************************************************************
@@ -6887,10 +6887,10 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
           Total number of amplitudes in ccsd      :   4142880
  
  Iter.  1: Coupled cluster RSTAR energy :    -362.3097533080604080
- Iter.  1: Coupled cluster CCSD  energy :    -362.3097533095155995
- Iter.  2: Coupled cluster CCSD  energy :    -362.3097533115114288
- Iter.  3: Coupled cluster CCSD  energy :    -362.3097533117756370
- Iter.  4: Coupled cluster CCSD  energy :    -362.3097533118449292
+ Iter.  1: Coupled cluster CCSD  energy :    -362.3097533095146900
+ Iter.  2: Coupled cluster CCSD  energy :    -362.3097533115122815
+ Iter.  3: Coupled cluster CCSD  energy :    -362.3097533117754665
+ Iter.  4: Coupled cluster CCSD  energy :    -362.3097533118452702
 
  CCSD energy will not be converged further
 
@@ -6898,8 +6898,8 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  Accumulated inner iterations at this point are    40
 
  CCSD  energy converged to within   0.10D-09 is         -362.309753311845
- Final 2-norm of the CC vector function:  1.19811654D-08
-  Change in norm^2 of T-amplitudes in this solvent it.:  7.583902006391696E-009
+ Final 2-norm of the CC vector function:  1.19811657D-08
+  Change in norm^2 of T-amplitudes in this solvent it.:  7.583911609820859E-009
 
 
 
@@ -6964,11 +6964,11 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
     Iter  #Vectors  time (min)   residual
     --------------------------------------
-      1       1         9.69     0.38E-06
-      2       1         9.87     0.23E-06
-      3       1         9.64     0.70E-07
-      4       1         9.58     0.29E-07
-      5       1         9.80     0.10E-07
+      1       1         7.62     0.38E-06
+      2       1         7.44     0.23E-06
+      3       1         7.44     0.70E-07
+      4       1         7.43     0.29E-07
+      5       1         7.49     0.10E-07
   CCSLV: We stop for now though not fully converged yet
   Accumulated inner iterations are:                    45
     --------------------------------------
@@ -6978,21 +6978,21 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV           48.57
-         CCRED               0.29
-         CCNEX               0.43
+         CC_TRDRV           37.42
+         CCRED               0.39
+         CCNEX               0.53
          ---------------------------
-         Total time         49.29
+         Total time         38.34
 
 
-  Total CPU  time used in CCEQ_SOLV: 49 minutes 17 seconds
-  Total wall time used in CCEQ_SOLV:  5 minutes  7 seconds
+  Total CPU  time used in CCEQ_SOLV: 38 minutes 20 seconds
+  Total wall time used in CCEQ_SOLV:  4 minutes 10 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  Change in norm^2 of L-amplitudes in this ccmm it.:  3.552586036459360E-008
-  Time used in LR=R       is       4.36 seconds
+  Change in norm^2 of L-amplitudes in this ccmm it.:  3.552585703392452E-008
+  Time used in LR=R       is       3.36 seconds
  Total <Lambda|H|CC> energy:   -362.314550830328     
             The singles contribution is:            -0.0025098098
             The doubles contribution is:            -0.0022877086
@@ -7013,7 +7013,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  E(QM/MM) contribution in iteration  4:           -0.3853393274
  CC energy in the  current CCMM iteration:      -362.6998901577
  CC energy in the previous CCMM iteration:      -362.6998901877
- Change in Total energy in this CCMM it.:          0.299955E-07
+ Change in Total energy in this CCMM it.:          0.299952E-07
 
 
  *****************************************************************
@@ -7039,14 +7039,14 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
           Number of t2 amplitudes                 :   4140003
           Total number of amplitudes in ccsd      :   4142880
  
- Iter.  1: Coupled cluster RSTAR energy :    -362.3097533118449292
- Iter.  1: Coupled cluster CCSD  energy :    -362.3097533119548075
- Iter.  2: Coupled cluster CCSD  energy :    -362.3097533120748039
- Iter.  3: Coupled cluster CCSD  energy :    -362.3097533121056131
+ Iter.  1: Coupled cluster RSTAR energy :    -362.3097533118452702
+ Iter.  1: Coupled cluster CCSD  energy :    -362.3097533119536706
+ Iter.  2: Coupled cluster CCSD  energy :    -362.3097533120701996
+ Iter.  3: Coupled cluster CCSD  energy :    -362.3097533121015772
 
- CCSD  energy converged to within   0.10D-09 is         -362.309753312106
- Final 2-norm of the CC vector function:  1.80919980D-09
-  Change in norm^2 of T-amplitudes in this solvent it.:  4.651166396474338E-010
+ CCSD  energy converged to within   0.10D-09 is         -362.309753312102
+ Final 2-norm of the CC vector function:  1.80918632D-09
+  Change in norm^2 of T-amplitudes in this solvent it.:  4.651108942432813E-010
 
 
 
@@ -7111,11 +7111,11 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
     Iter  #Vectors  time (min)   residual
     --------------------------------------
-      1       1        10.60     0.22E-07
-      2       1         9.58     0.14E-07
-      3       1         9.61     0.42E-08
-      4       1         9.56     0.17E-08
-      5       1         9.66     0.68E-09
+      1       1         7.46     0.22E-07
+      2       1         7.45     0.14E-07
+      3       1         7.44     0.42E-08
+      4       1         7.48     0.17E-08
+      5       1         7.39     0.68E-09
     --------------------------------------
     converged in  5 iterations
     threshold:    0.10E-08
@@ -7123,22 +7123,22 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV           49.00
-         CCRED               0.33
-         CCNEX               0.38
+         CC_TRDRV           37.22
+         CCRED               0.38
+         CCNEX               0.48
          ---------------------------
-         Total time         49.71
+         Total time         38.09
 
 
-  Total CPU  time used in CCEQ_SOLV: 49 minutes 43 seconds
-  Total wall time used in CCEQ_SOLV:  5 minutes 16 seconds
+  Total CPU  time used in CCEQ_SOLV: 38 minutes  5 seconds
+  Total wall time used in CCEQ_SOLV:  4 minutes  8 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  Change in norm^2 of L-amplitudes in this ccmm it.:  1.915178460265565E-009
-  Time used in LR=R       is       3.80 seconds
- Total <Lambda|H|CC> energy:   -362.314550831259     
+  Change in norm^2 of L-amplitudes in this ccmm it.:  1.915187897161275E-009
+  Time used in LR=R       is       3.17 seconds
+ Total <Lambda|H|CC> energy:   -362.314550831255     
             The singles contribution is:            -0.0025098107
             The doubles contribution is:            -0.0022877084
  CCFOP: call CC_D1AO to recalc the 1e Density
@@ -7158,7 +7158,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  E(QM/MM) contribution in iteration  5:           -0.3853393252
  CC energy in the  current CCMM iteration:      -362.6998901565
  CC energy in the previous CCMM iteration:      -362.6998901577
- Change in Total energy in this CCMM it.:          0.122230E-08
+ Change in Total energy in this CCMM it.:          0.122668E-08
 
 
  +======================================================================+
@@ -7369,7 +7369,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.84196607
       15      15.86142761
     ==== End of matrix output ====
-      1      15        94.34     0.15E+01
+      1      15        64.77     0.15E+01
  CCRED CVS/IONIS sigma_                    16 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    17 
@@ -7420,7 +7420,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.55599173
       15      15.57894952
     ==== End of matrix output ====
-      2      15        88.71     0.13E+01
+      2      15        64.82     0.13E+01
  CCRED CVS/IONIS sigma_                    31 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    32 
@@ -7471,7 +7471,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.25863391
       15      15.28704316
     ==== End of matrix output ====
-      3      15        85.98     0.47E+00
+      3      15        65.72     0.47E+00
  CCRED CVS/IONIS sigma_                    46 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    47 
@@ -7522,7 +7522,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.22683840
       15      15.25547945
     ==== End of matrix output ====
-      4      15        81.17     0.26E+00
+      4      15        67.32     0.26E+00
  CCRED CVS/IONIS sigma_                    61 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    62 
@@ -7573,7 +7573,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21571889
       15      15.24372784
     ==== End of matrix output ====
-      5      15        96.31     0.14E+00
+      5      15        67.61     0.14E+00
  CCRED CVS/IONIS sigma_                    76 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    77 
@@ -7624,7 +7624,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21576198
       15      15.24363267
     ==== End of matrix output ====
-      6      15        89.52     0.18E+00
+      6      15        68.63     0.18E+00
  CCRED CVS/IONIS sigma_                    91 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    92 
@@ -7675,7 +7675,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21678236
       15      15.24451883
     ==== End of matrix output ====
-      7      15        93.21     0.12E+00
+      7      15        68.71     0.12E+00
  CCRED CVS/IONIS sigma_                   106 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   107 
@@ -7726,7 +7726,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21795102
       15      15.24555009
     ==== End of matrix output ====
-      8      15        89.77     0.16E+00
+      8      15        69.10     0.16E+00
  CCRED CVS/IONIS sigma_                   121 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   122 
@@ -7777,7 +7777,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21855538
       15      15.24591522
     ==== End of matrix output ====
-      9      15        92.06     0.10E+00
+      9      15        67.85     0.10E+00
  CCRED CVS/IONIS sigma_                   136 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   137 
@@ -7828,7 +7828,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21840124
       15      15.24505921
     ==== End of matrix output ====
-     10      15        81.41     0.79E-01
+     10      15        68.73     0.79E-01
  CCRED CVS/IONIS sigma_                   151 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   152 
@@ -7879,7 +7879,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21786822
       15      15.24394355
     ==== End of matrix output ====
-     11      15        90.88     0.65E-01
+     11      15        67.48     0.65E-01
  CCRED CVS/IONIS sigma_                   166 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   167 
@@ -7930,7 +7930,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21730699
       15      15.24292679
     ==== End of matrix output ====
-     12      15        85.60     0.34E-01
+     12      15        67.23     0.34E-01
  CCRED CVS/IONIS sigma_                   181 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   182 
@@ -7981,7 +7981,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21672662
       15      15.24201752
     ==== End of matrix output ====
-     13      15        96.12     0.28E-01
+     13      15        65.48     0.28E-01
  CCRED CVS/IONIS sigma_                   196 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   197 
@@ -8032,7 +8032,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21636199
       15      15.24153503
     ==== End of matrix output ====
-     14      15        98.26     0.26E-01
+     14      15        67.23     0.26E-01
  CCRED CVS/IONIS sigma_                   211 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   212 
@@ -8083,7 +8083,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21627218
       15      15.24134612
     ==== End of matrix output ====
-     15      15        85.90     0.18E-01
+     15      15        67.81     0.18E-01
  CCRED CVS/IONIS sigma_                   226 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   227 
@@ -8134,7 +8134,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21632725
       15      15.24137292
     ==== End of matrix output ====
-     16      15        96.27     0.14E-01
+     16      15        67.65     0.14E-01
  CCRED CVS/IONIS sigma_                   241 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   242 
@@ -8185,7 +8185,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21643382
       15      15.24148414
     ==== End of matrix output ====
-     17      15        91.04     0.11E-01
+     17      15        66.19     0.11E-01
  CCRED CVS/IONIS sigma_                   256 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   257 
@@ -8236,7 +8236,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21655046
       15      15.24159008
     ==== End of matrix output ====
-     18      15       106.50     0.76E-02
+     18      15        66.58     0.76E-02
  CCRED CVS/IONIS sigma_                   271 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   272 
@@ -8287,7 +8287,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21661696
       15      15.24167374
     ==== End of matrix output ====
-     19      15       129.34     0.61E-02
+     19      15        69.08     0.61E-02
  CCRED CVS/IONIS sigma_                   286 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   287 
@@ -8338,7 +8338,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21665755
       15      15.24171932
     ==== End of matrix output ====
-     20      15        97.25     0.41E-02
+     20      15        68.20     0.41E-02
  CCRED CVS/IONIS sigma_                   301 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   302 
@@ -8389,7 +8389,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21666489
       15      15.24173482
     ==== End of matrix output ====
-     21      15       112.97     0.24E-02
+     21      15        67.89     0.24E-02
  CCRED CVS/IONIS sigma_                   316 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   317 
@@ -8440,7 +8440,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21665888
       15      15.24173073
     ==== End of matrix output ====
-     22      15       111.75     0.17E-02
+     22      15        67.49     0.17E-02
  CCRED CVS/IONIS sigma_                   331 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   332 
@@ -8491,7 +8491,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21664751
       15      15.24171828
     ==== End of matrix output ====
-     23      15       105.21     0.12E-02
+     23      15        67.31     0.12E-02
  CCRED CVS/IONIS sigma_                   346 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   347 
@@ -8542,7 +8542,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21663730
       15      15.24170713
     ==== End of matrix output ====
-     24      15        93.96     0.82E-03
+     24      15        69.03     0.82E-03
  CCRED CVS/IONIS sigma_                   361 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   362 
@@ -8587,7 +8587,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21663135
       15      15.24170019
     ==== End of matrix output ====
-     25      12        81.38     0.56E-03
+     25      12        54.91     0.56E-03
  CCRED CVS/IONIS sigma_                   373 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   374 
@@ -8628,7 +8628,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21662761
       15      15.24169582
     ==== End of matrix output ====
-     26      10        62.60     0.37E-03
+     26      10        46.78     0.37E-03
  CCRED CVS/IONIS sigma_                   383 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   384 
@@ -8657,7 +8657,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21662592
       15      15.24169404
     ==== End of matrix output ====
-     27       4        28.79     0.25E-03
+     27       4        18.73     0.25E-03
  CCRED CVS/IONIS sigma_                   387 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   388 
@@ -8682,7 +8682,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21662520
       15      15.24169337
     ==== End of matrix output ====
-     28       2        14.87     0.17E-03
+     28       2        10.13     0.17E-03
  CCRED CVS/IONIS sigma_                   389 
  project out valence occupied or virtual
 
@@ -8705,7 +8705,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21662521
       15      15.24169359
     ==== End of matrix output ====
-     29       1         9.63     0.13E-03
+     29       1         4.52     0.13E-03
  CCRED CVS/IONIS sigma_                   390 
  project out valence occupied or virtual
 
@@ -8728,7 +8728,7 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
       14      15.21662531
       15      15.24169425
     ==== End of matrix output ====
-     30       1         9.23     0.82E-04
+     30       1         5.23     0.82E-04
     --------------------------------------
     converged in 30 iterations
     threshold:    0.10E-03
@@ -8736,15 +8736,15 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV         2500.03
-         CCRED             414.39
-         CCNEX             622.65
+         CC_TRDRV         1758.20
+         CCRED             192.82
+         CCNEX             260.52
          ---------------------------
-         Total time       3537.07
+         Total time       2211.54
 
 
-  Total CPU  time used in CCEQ_SOLV:  58 hours 57 minutes  4 seconds
-  Total wall time used in CCEQ_SOLV:   8 hours 31 minutes 52 seconds
+  Total CPU  time used in CCEQ_SOLV:  36 hours 51 minutes 33 seconds
+  Total wall time used in CCEQ_SOLV:   4 hours  1 minute  26 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -8802,21 +8802,21 @@ File label for MO orbitals:   1Dec18   FOCKDIIS
  Total excited state energies for states of symmetry/spin    1    1
  Excitation no.       Energy (Hartree) 
  ------------------------------------- 
-@@    1    1          -347.417202877071702
-@@    1    2          -347.359088864905004
-@@    1    3          -347.320100849313803
-@@    1    4          -347.290842526120116
-@@    1    5          -347.249995081780582
-@@    1    6          -347.209928610192549
-@@    1    7          -347.206712974794812
-@@    1    8          -347.194057191604202
-@@    1    9          -347.175837630154660
-@@    1   10          -347.167196535073913
-@@    1   11          -347.138604748624800
-@@    1   12          -347.112346150680537
-@@    1   13          -347.106611825529399
-@@    1   14          -347.097925522382752
-@@    1   15          -347.072856584483247
+@@    1    1          -347.417202877067723
+@@    1    2          -347.359088864900912
+@@    1    3          -347.320100849309767
+@@    1    4          -347.290842526116080
+@@    1    5          -347.249995081776490
+@@    1    6          -347.209928610188456
+@@    1    7          -347.206712974790662
+@@    1    8          -347.194057191600052
+@@    1    9          -347.175837630150511
+@@    1   10          -347.167196535069763
+@@    1   11          -347.138604748620537
+@@    1   12          -347.112346150676274
+@@    1   13          -347.106611825525079
+@@    1   14          -347.097925522378603
+@@    1   15          -347.072856584479041
 
 
  Analysis of the Coupled Cluster Excitation Vector Number :  1
@@ -10076,7 +10076,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662531
       15      15.24169425
     ==== End of matrix output ====
-      1      15       173.88     0.12E+01
+      1      15       129.02     0.12E+01
  CCRED CVS/IONIS sigma_                    16 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    17 
@@ -10127,7 +10127,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662613
       15      15.24169516
     ==== End of matrix output ====
-      2      15       158.97     0.84E+00
+      2      15       125.22     0.84E+00
  CCRED CVS/IONIS sigma_                    31 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    32 
@@ -10178,7 +10178,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662631
       15      15.24169529
     ==== End of matrix output ====
-      3      15       166.56     0.33E+00
+      3      15       124.33     0.33E+00
  CCRED CVS/IONIS sigma_                    46 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    47 
@@ -10229,7 +10229,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662643
       15      15.24169546
     ==== End of matrix output ====
-      4      15       177.01     0.22E+00
+      4      15       123.85     0.22E+00
  CCRED CVS/IONIS sigma_                    61 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    62 
@@ -10280,7 +10280,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662648
       15      15.24169555
     ==== End of matrix output ====
-      5      15       184.84     0.13E+00
+      5      15       123.77     0.13E+00
  CCRED CVS/IONIS sigma_                    76 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    77 
@@ -10331,7 +10331,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169561
     ==== End of matrix output ====
-      6      15       192.08     0.68E-01
+      6      15       123.13     0.68E-01
  CCRED CVS/IONIS sigma_                    91 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    92 
@@ -10382,7 +10382,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662653
       15      15.24169563
     ==== End of matrix output ====
-      7      15       177.45     0.40E-01
+      7      15       121.58     0.40E-01
  CCRED CVS/IONIS sigma_                   106 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   107 
@@ -10433,7 +10433,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662652
       15      15.24169564
     ==== End of matrix output ====
-      8      15       174.22     0.27E-01
+      8      15       122.05     0.27E-01
  CCRED CVS/IONIS sigma_                   121 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   122 
@@ -10484,7 +10484,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662652
       15      15.24169564
     ==== End of matrix output ====
-      9      15       192.66     0.20E-01
+      9      15       122.98     0.20E-01
  CCRED CVS/IONIS sigma_                   136 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   137 
@@ -10535,7 +10535,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662651
       15      15.24169564
     ==== End of matrix output ====
-     10      15       189.22     0.14E-01
+     10      15       122.28     0.14E-01
  CCRED CVS/IONIS sigma_                   151 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   152 
@@ -10586,7 +10586,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662651
       15      15.24169564
     ==== End of matrix output ====
-     11      15       188.97     0.10E-01
+     11      15       121.78     0.10E-01
  CCRED CVS/IONIS sigma_                   166 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   167 
@@ -10637,7 +10637,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     12      15       175.93     0.72E-02
+     12      15       122.02     0.72E-02
  CCRED CVS/IONIS sigma_                   181 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   182 
@@ -10688,7 +10688,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     13      15       182.95     0.46E-02
+     13      15       124.54     0.46E-02
  CCRED CVS/IONIS sigma_                   196 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   197 
@@ -10739,7 +10739,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     14      15       202.51     0.38E-02
+     14      15       123.52     0.38E-02
  CCRED CVS/IONIS sigma_                   211 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   212 
@@ -10790,7 +10790,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     15      15       191.26     0.30E-02
+     15      15       123.16     0.30E-02
  CCRED CVS/IONIS sigma_                   226 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   227 
@@ -10841,7 +10841,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     16      15       176.99     0.27E-02
+     16      15       124.94     0.27E-02
  CCRED CVS/IONIS sigma_                   241 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   242 
@@ -10892,7 +10892,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     17      15       174.00     0.16E-02
+     17      15       122.08     0.16E-02
  CCRED CVS/IONIS sigma_                   256 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   257 
@@ -10943,7 +10943,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     18      15       179.81     0.12E-02
+     18      15       124.89     0.12E-02
  CCRED CVS/IONIS sigma_                   271 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   272 
@@ -10994,7 +10994,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     19      15       175.52     0.99E-03
+     19      15       125.62     0.99E-03
  CCRED CVS/IONIS sigma_                   286 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   287 
@@ -11045,7 +11045,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     20      15       166.76     0.64E-03
+     20      15       125.12     0.64E-03
  CCRED CVS/IONIS sigma_                   301 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   302 
@@ -11096,7 +11096,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     21      15       200.15     0.56E-03
+     21      15       127.96     0.56E-03
  CCRED CVS/IONIS sigma_                   316 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   317 
@@ -11147,7 +11147,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     22      15       182.61     0.45E-03
+     22      15       127.18     0.45E-03
  CCRED CVS/IONIS sigma_                   331 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   332 
@@ -11198,7 +11198,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     23      15       173.76     0.35E-03
+     23      15       121.91     0.35E-03
  CCRED CVS/IONIS sigma_                   346 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   347 
@@ -11239,7 +11239,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     24      10       111.26     0.26E-03
+     24      10        81.03     0.26E-03
  CCRED CVS/IONIS sigma_                   356 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   357 
@@ -11272,7 +11272,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     25       6        71.40     0.21E-03
+     25       6        48.80     0.21E-03
  CCRED CVS/IONIS sigma_                   362 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                   363 
@@ -11301,7 +11301,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     26       4        46.77     0.13E-03
+     26       4        32.43     0.13E-03
  CCRED CVS/IONIS sigma_                   366 
  project out valence occupied or virtual
 
@@ -11324,7 +11324,7 @@ Try to use right eigenvector as start for a left eigenvector.
       14      15.21662650
       15      15.24169564
     ==== End of matrix output ====
-     27       1        15.20     0.98E-04
+     27       1         8.33     0.98E-04
     --------------------------------------
     converged in 27 iterations
     threshold:    0.10E-03
@@ -11332,15 +11332,15 @@ Try to use right eigenvector as start for a left eigenvector.
 
          Routine          Time (min)
          ---------------------------
-         CC_TRDRV         4402.73
-         CCRED             319.77
-         CCNEX             467.68
+         CC_TRDRV         3023.53
+         CCRED             167.84
+         CCNEX             204.84
          ---------------------------
-         Total time       5190.18
+         Total time       3396.21
 
 
-  Total CPU  time used in CCEQ_SOLV:  86 hours 30 minutes 11 seconds
-  Total wall time used in CCEQ_SOLV:  10 hours 58 minutes 12 seconds
+  Total CPU  time used in CCEQ_SOLV:  56 hours 36 minutes 12 seconds
+  Total wall time used in CCEQ_SOLV:   6 hours 10 minutes 45 seconds
 
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -11392,27 +11392,27 @@ Try to use right eigenvector as start for a left eigenvector.
         12           15.2022050058      413.6730412509
         13           15.2079374999      413.8290303497
         14           15.2166264976      414.0654700050
-        15           15.2416956356      414.7476359510
+        15           15.2416956356      414.7476359511
 
 
  Total excited state energies for states of symmetry/spin    1    1
  Excitation no.       Energy (Hartree) 
  ------------------------------------- 
-@@    1    1          -347.417202629757469
-@@    1    2          -347.359088811700758
-@@    1    3          -347.320100742579029
-@@    1    4          -347.290842572639065
-@@    1    5          -347.249996483985512
-@@    1    6          -347.209929913678366
-@@    1    7          -347.206713965187589
-@@    1    8          -347.194057250509331
-@@    1    9          -347.175838165701578
-@@    1   10          -347.167197073528598
-@@    1   11          -347.138604113877932
-@@    1   12          -347.112345825479565
-@@    1   13          -347.106613331401263
-@@    1   14          -347.097924333684887
-@@    1   15          -347.072855195680290
+@@    1    1          -347.417202629753490
+@@    1    2          -347.359088811696608
+@@    1    3          -347.320100742574937
+@@    1    4          -347.290842572634915
+@@    1    5          -347.249996483981590
+@@    1    6          -347.209929913674159
+@@    1    7          -347.206713965183667
+@@    1    8          -347.194057250505182
+@@    1    9          -347.175838165697542
+@@    1   10          -347.167197073524505
+@@    1   11          -347.138604113873612
+@@    1   12          -347.112345825475472
+@@    1   13          -347.106613331397227
+@@    1   14          -347.097924333680737
+@@    1   15          -347.072855195675913
 
 
  Analysis of the Coupled Cluster Excitation Vector Number :  1
@@ -12793,7 +12793,7 @@ Try to use right eigenvector as start for a left eigenvector.
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    15 
  project out valence occupied or virtual
-      1      15       173.49     0.14E+01
+      1      15       122.09     0.14E+01
  CCRED CVS/IONIS sigma_                    16 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    17 
@@ -12824,7 +12824,7 @@ Try to use right eigenvector as start for a left eigenvector.
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    30 
  project out valence occupied or virtual
-      2      15       167.77     0.24E+00
+      2      15       121.73     0.24E+00
  CCRED CVS/IONIS sigma_                    31 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    32 
@@ -12855,7 +12855,7 @@ Try to use right eigenvector as start for a left eigenvector.
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    45 
  project out valence occupied or virtual
-      3      15       180.67     0.30E-01
+      3      15       121.55     0.30E-01
  CCRED CVS/IONIS sigma_                    46 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    47 
@@ -12886,7 +12886,7 @@ Try to use right eigenvector as start for a left eigenvector.
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    60 
  project out valence occupied or virtual
-      4      15       178.94     0.40E-02
+      4      15       121.58     0.40E-02
  CCRED CVS/IONIS sigma_                    61 
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    62 
@@ -12917,60 +12917,1559 @@ Try to use right eigenvector as start for a left eigenvector.
  project out valence occupied or virtual
  CCRED CVS/IONIS sigma_                    75 
  project out valence occupied or virtual
-      5      15       189.08     0.61E-03
+      5      15       123.36     0.61E-03
+ CCRED CVS/IONIS sigma_                    76 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    77 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    78 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    79 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    80 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    81 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    82 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    83 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    84 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    85 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    86 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    87 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    88 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    89 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    90 
+ project out valence occupied or virtual
+      6      15       123.06     0.86E-04
+ CCRED CVS/IONIS sigma_                    91 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    92 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    93 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    94 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    95 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    96 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    97 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    98 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                    99 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   100 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   101 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   102 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   103 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   104 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   105 
+ project out valence occupied or virtual
+      7      15       122.22     0.95E-05
+ CCRED CVS/IONIS sigma_                   106 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   107 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   108 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   109 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   110 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   111 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   112 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   113 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   114 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   115 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   116 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   117 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   118 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   119 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   120 
+ project out valence occupied or virtual
+      8      15       122.48     0.12E-05
+ CCRED CVS/IONIS sigma_                   121 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   122 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   123 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   124 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   125 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   126 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   127 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   128 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   129 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   130 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   131 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   132 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   133 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   134 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   135 
+ project out valence occupied or virtual
+      9      15       125.05     0.18E-06
+ CCRED CVS/IONIS sigma_                   136 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   137 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   138 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   139 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   140 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   141 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   142 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   143 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   144 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   145 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   146 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   147 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   148 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   149 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   150 
+ project out valence occupied or virtual
+     10      15       126.23     0.23E-07
+ CCRED CVS/IONIS sigma_                   151 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   152 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   153 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   154 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   155 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   156 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   157 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   158 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   159 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   160 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   161 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   162 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   163 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   164 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   165 
+ project out valence occupied or virtual
+     11      15       125.73     0.23E-08
+ CCRED CVS/IONIS sigma_                   166 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   167 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   168 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   169 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   170 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   171 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   172 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   173 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   174 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   175 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   176 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   177 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   178 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   179 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   180 
+ project out valence occupied or virtual
+     12      15       125.01     0.26E-09
+    --------------------------------------
+    converged in 12 iterations
+    threshold:    0.10E-08
 
 
---> ERROR (GPOPEN) UPON TRYING TO OPEN FILE ON UNIT 13
---> with filename QMMMIM
---> IOSTAT ERROR CODE RETURNED      30
+         Routine          Time (min)
+         ---------------------------
+         CC_TRDRV         1480.09
+         CCRED              48.73
+         CCNEX              46.02
+         ---------------------------
+         Total time       1574.83
 
 
- QTRACE dump of internal trace stack
-
- ========================
-      level    module
- ========================
-         12    GPOPEN      
-         11    CCMM_F2DIP  
-         10    CCMM_TRANSFO
-          9    CC_LHTR     
-          8    CC_TRDRV    
-          7    CCEQ_SOL    
-          6    CC_SOLDRV   
-          5    CC_SOLRSP   
-          4    CC_DRV      
-          3    CC          
-          2    DALTON      
-          1    DALTON main 
- ========================
+  Total CPU  time used in CCEQ_SOLV:  26 hours 14 minutes 50 seconds
+  Total wall time used in CCEQ_SOLV:   2 hours 52 minutes 43 seconds
 
 
-  --- SEVERE ERROR, PROGRAM WILL BE ABORTED ---
-     Date and time (Linux)  : Sun Dec  2 15:48:31 2018
-     Host name              : n-62-23-15                              
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
- Reason: ERROR (GPOPEN) UPON OPENING A FILE
+ 
+ Solution of CC response equations completed.
+ 
 
-  Total CPU  time used in DALTON: 173 hours 16 minutes 35 seconds
-  Total wall time used in DALTON:  22 hours 48 minutes 51 seconds
+ *******************************************************************
+ *                                                                 *
+ *--------  OUTPUT FROM COUPLED CLUSTER LINEAR RESPONSE   ---------*
+ *                                                                 *
+ *--------      CALCULATION OF SECOND ORDER RESIDUES      ---------*
+ *                                                                 *
+ *******************************************************************
 
 
- QTRACE dump of internal trace stack
 
- ========================
-      level    module
- ========================
-         12    GPOPEN      
-         11    CCMM_F2DIP  
-         10    CCMM_TRANSFO
-          9    CC_LHTR     
-          8    CC_TRDRV    
-          7    CCEQ_SOL    
-          6    CC_SOLDRV   
-          5    CC_SOLRSP   
-          4    CC_DRV      
-          3    CC          
-          2    DALTON      
-          1    DALTON main 
- ========================
+                  +---------------------------------------------+
+                  ! CC_SOPR: Calculation of CCSD       Residues !
+                  +---------------------------------------------+
 
+ Doing the Mf*CsiA
+ Doing the Mf*CsiA
+ Doing the Mf*CsiA
+
+
+ CCSD  Right transition moments in atomic units:
+ -----------------------------------------------
+
+  1      14.897348  <XDIPLEN |f> =      -0.01021400
+  2      14.955462  <XDIPLEN |f> =       0.01787002
+  3      14.994450  <XDIPLEN |f> =       0.02102789
+  4      15.023708  <XDIPLEN |f> =      -0.08520863
+  5      15.064556  <XDIPLEN |f> =      -0.00007661
+  6      15.104622  <XDIPLEN |f> =       0.02187876
+  7      15.107838  <XDIPLEN |f> =       0.01641471
+  8      15.120494  <XDIPLEN |f> =      -0.00288096
+  9      15.138713  <XDIPLEN |f> =       0.01394365
+ 10      15.147354  <XDIPLEN |f> =       0.02662953
+ 11      15.175946  <XDIPLEN |f> =       0.02642644
+ 12      15.202205  <XDIPLEN |f> =      -0.00238438
+ 13      15.207939  <XDIPLEN |f> =      -0.01288646
+ 14      15.216625  <XDIPLEN |f> =       0.00484203
+ 15      15.241694  <XDIPLEN |f> =       0.02585190
+  1      14.897348  <YDIPLEN |f> =       0.04551871
+  2      14.955462  <YDIPLEN |f> =      -0.01549510
+  3      14.994450  <YDIPLEN |f> =      -0.07533192
+  4      15.023708  <YDIPLEN |f> =      -0.02538407
+  5      15.064556  <YDIPLEN |f> =       0.01874347
+  6      15.104622  <YDIPLEN |f> =       0.01277507
+  7      15.107838  <YDIPLEN |f> =      -0.00476306
+  8      15.120494  <YDIPLEN |f> =      -0.01353031
+  9      15.138713  <YDIPLEN |f> =       0.02640375
+ 10      15.147354  <YDIPLEN |f> =       0.01220114
+ 11      15.175946  <YDIPLEN |f> =      -0.01633363
+ 12      15.202205  <YDIPLEN |f> =       0.00213725
+ 13      15.207939  <YDIPLEN |f> =       0.00555958
+ 14      15.216625  <YDIPLEN |f> =      -0.00349556
+ 15      15.241694  <YDIPLEN |f> =       0.01239270
+  1      14.897348  <ZDIPLEN |f> =       0.04005444
+  2      14.955462  <ZDIPLEN |f> =      -0.07670855
+  3      14.994450  <ZDIPLEN |f> =       0.04351440
+  4      15.023708  <ZDIPLEN |f> =      -0.01152568
+  5      15.064556  <ZDIPLEN |f> =      -0.00154596
+  6      15.104622  <ZDIPLEN |f> =      -0.00709034
+  7      15.107838  <ZDIPLEN |f> =       0.00421074
+  8      15.120494  <ZDIPLEN |f> =      -0.01484078
+  9      15.138713  <ZDIPLEN |f> =      -0.01609938
+ 10      15.147354  <ZDIPLEN |f> =       0.01231020
+ 11      15.175946  <ZDIPLEN |f> =       0.00196152
+ 12      15.202205  <ZDIPLEN |f> =      -0.00543922
+ 13      15.207939  <ZDIPLEN |f> =      -0.01208060
+ 14      15.216625  <ZDIPLEN |f> =       0.01754453
+ 15      15.241694  <ZDIPLEN |f> =      -0.01255353
+
+
+ CCSD  Left  transition moments in atomic units:
+ -----------------------------------------------
+
+  1      14.897348  <f|XDIPLEN > =      -0.00472728
+  2      14.955462  <f|XDIPLEN > =       0.00835339
+  3      14.994450  <f|XDIPLEN > =       0.00967798
+  4      15.023708  <f|XDIPLEN > =      -0.03953206
+  5      15.064556  <f|XDIPLEN > =       0.00014433
+  6      15.104622  <f|XDIPLEN > =       0.01003514
+  7      15.107838  <f|XDIPLEN > =       0.00741583
+  8      15.120494  <f|XDIPLEN > =      -0.00131473
+  9      15.138713  <f|XDIPLEN > =       0.00640802
+ 10      15.147354  <f|XDIPLEN > =       0.01200661
+ 11      15.175946  <f|XDIPLEN > =       0.01186226
+ 12      15.202205  <f|XDIPLEN > =      -0.00102624
+ 13      15.207939  <f|XDIPLEN > =      -0.00573268
+ 14      15.216625  <f|XDIPLEN > =       0.00213559
+ 15      15.241694  <f|XDIPLEN > =       0.01168391
+  1      14.897348  <f|YDIPLEN > =       0.02103268
+  2      14.955462  <f|YDIPLEN > =      -0.00713662
+  3      14.994450  <f|YDIPLEN > =      -0.03494210
+  4      15.023708  <f|YDIPLEN > =      -0.01184638
+  5      15.064556  <f|YDIPLEN > =       0.00860334
+  6      15.104622  <f|YDIPLEN > =       0.00592604
+  7      15.107838  <f|YDIPLEN > =      -0.00230495
+  8      15.120494  <f|YDIPLEN > =      -0.00618390
+  9      15.138713  <f|YDIPLEN > =       0.01195652
+ 10      15.147354  <f|YDIPLEN > =       0.00551909
+ 11      15.175946  <f|YDIPLEN > =      -0.00728786
+ 12      15.202205  <f|YDIPLEN > =       0.00095412
+ 13      15.207939  <f|YDIPLEN > =       0.00243438
+ 14      15.216625  <f|YDIPLEN > =      -0.00154141
+ 15      15.241694  <f|YDIPLEN > =       0.00564101
+  1      14.897348  <f|ZDIPLEN > =       0.01854245
+  2      14.955462  <f|ZDIPLEN > =      -0.03556513
+  3      14.994450  <f|ZDIPLEN > =       0.02021704
+  4      15.023708  <f|ZDIPLEN > =      -0.00523299
+  5      15.064556  <f|ZDIPLEN > =      -0.00078450
+  6      15.104622  <f|ZDIPLEN > =      -0.00326331
+  7      15.107838  <f|ZDIPLEN > =       0.00190565
+  8      15.120494  <f|ZDIPLEN > =      -0.00670516
+  9      15.138713  <f|ZDIPLEN > =      -0.00733101
+ 10      15.147354  <f|ZDIPLEN > =       0.00552850
+ 11      15.175946  <f|ZDIPLEN > =       0.00087325
+ 12      15.202205  <f|ZDIPLEN > =      -0.00235492
+ 13      15.207939  <f|ZDIPLEN > =      -0.00544661
+ 14      15.216625  <f|ZDIPLEN > =       0.00784841
+ 15      15.241694  <f|ZDIPLEN > =      -0.00568339
+
+
+ CCSD  linear response residue property in atomic units:
+ -------------------------------------------------------
+
+ RES{<<XDIPLEN ,XDIPLEN >>(14.897348)} =     0.00004828 (   0.00694870)
+ RES{<<XDIPLEN ,XDIPLEN >>(14.955462)} =     0.00014928 (   0.01221782)
+ RES{<<XDIPLEN ,XDIPLEN >>(14.994450)} =     0.00020351 (   0.01426561)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.023708)} =     0.00336847 (   0.05803855)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.064556)} =    -0.00000001 (  -0.00010515)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.104622)} =     0.00021956 (   0.01481743)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.107838)} =     0.00012173 (   0.01103307)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.120494)} =     0.00000379 (   0.00194620)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.138713)} =     0.00008935 (   0.00945258)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.147354)} =     0.00031973 (   0.01788101)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.175946)} =     0.00031348 (   0.01770529)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.202205)} =     0.00000245 (   0.00156427)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.207939)} =     0.00007387 (   0.00859499)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.216625)} =     0.00001034 (   0.00321568)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.241694)} =     0.00030205 (   0.01737962)
+ RES{<<XDIPLEN ,YDIPLEN >>(14.897348)} =    -0.00021500 (  -0.01466301)
+ RES{<<XDIPLEN ,YDIPLEN >>(14.955462)} =    -0.00012848 (  -0.01133508)
+ RES{<<XDIPLEN ,YDIPLEN >>(14.994450)} =    -0.00073191 (  -0.02705383)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.023708)} =     0.00100645 (   0.03172459)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.064556)} =     0.00000102 (   0.00101146)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.104622)} =     0.00012893 (   0.01135460)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.107838)} =    -0.00003658 (  -0.00604802)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.120494)} =     0.00001780 (   0.00421926)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.138713)} =     0.00016796 (   0.01295981)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.147354)} =     0.00014673 (   0.01211332)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.175946)} =    -0.00019317 (  -0.01389867)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.202205)} =    -0.00000223 (  -0.00149471)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.207939)} =    -0.00003162 (  -0.00562325)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.216625)} =    -0.00000746 (  -0.00273209)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.241694)} =     0.00014531 (   0.01205458)
+ RES{<<XDIPLEN ,ZDIPLEN >>(14.897348)} =    -0.00018937 (  -0.01376120)
+ RES{<<XDIPLEN ,ZDIPLEN >>(14.955462)} =    -0.00063816 (  -0.02526189)
+ RES{<<XDIPLEN ,ZDIPLEN >>(14.994450)} =     0.00042313 (   0.02057004)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.023708)} =     0.00045076 (   0.02123122)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.064556)} =    -0.00000008 (  -0.00028550)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.104622)} =    -0.00007127 (  -0.00844244)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.107838)} =     0.00003125 (   0.00559047)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.120494)} =     0.00001941 (   0.00440618)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.138713)} =    -0.00010269 (  -0.01013376)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.147354)} =     0.00014751 (   0.01214548)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.175946)} =     0.00002317 (   0.00481377)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.202205)} =     0.00000560 (   0.00236611)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.207939)} =     0.00006972 (   0.00834990)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.216625)} =     0.00003774 (   0.00614289)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.241694)} =    -0.00014680 (  -0.01211612)
+ RES{<<YDIPLEN ,XDIPLEN >>(14.897348)} =    -0.00021500 (  -0.01466301)
+ RES{<<YDIPLEN ,XDIPLEN >>(14.955462)} =    -0.00012848 (  -0.01133508)
+ RES{<<YDIPLEN ,XDIPLEN >>(14.994450)} =    -0.00073191 (  -0.02705383)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.023708)} =     0.00100645 (   0.03172459)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.064556)} =     0.00000102 (   0.00101146)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.104622)} =     0.00012893 (   0.01135460)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.107838)} =    -0.00003658 (  -0.00604802)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.120494)} =     0.00001780 (   0.00421926)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.138713)} =     0.00016796 (   0.01295981)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.147354)} =     0.00014673 (   0.01211332)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.175946)} =    -0.00019317 (  -0.01389867)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.202205)} =    -0.00000223 (  -0.00149471)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.207939)} =    -0.00003162 (  -0.00562325)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.216625)} =    -0.00000746 (  -0.00273209)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.241694)} =     0.00014531 (   0.01205458)
+ RES{<<YDIPLEN ,YDIPLEN >>(14.897348)} =     0.00095738 (   0.03094156)
+ RES{<<YDIPLEN ,YDIPLEN >>(14.955462)} =     0.00011058 (   0.01051583)
+ RES{<<YDIPLEN ,YDIPLEN >>(14.994450)} =     0.00263226 (   0.05130551)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.023708)} =     0.00030071 (   0.01734098)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.064556)} =     0.00016126 (   0.01269868)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.104622)} =     0.00007571 (   0.00870090)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.107838)} =     0.00001098 (   0.00331340)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.120494)} =     0.00008367 (   0.00914713)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.138713)} =     0.00031570 (   0.01776786)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.147354)} =     0.00006734 (   0.00820604)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.175946)} =     0.00011904 (   0.01091042)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.202205)} =     0.00000204 (   0.00142800)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.207939)} =     0.00001353 (   0.00367888)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.216625)} =     0.00000539 (   0.00232123)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.241694)} =     0.00006991 (   0.00836106)
+ RES{<<YDIPLEN ,ZDIPLEN >>(14.897348)} =     0.00084324 (   0.02903860)
+ RES{<<YDIPLEN ,ZDIPLEN >>(14.955462)} =     0.00054926 (   0.02343635)
+ RES{<<YDIPLEN ,ZDIPLEN >>(14.994450)} =    -0.00152174 (  -0.03900944)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.023708)} =     0.00013469 (   0.01160543)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.064556)} =    -0.00001400 (  -0.00374197)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.104622)} =    -0.00004185 (  -0.00646942)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.107838)} =    -0.00000939 (  -0.00306450)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.120494)} =     0.00009125 (   0.00955240)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.138713)} =    -0.00019303 (  -0.01389350)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.147354)} =     0.00006770 (   0.00822785)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.175946)} =    -0.00001428 (  -0.00377879)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.202205)} =    -0.00000511 (  -0.00226083)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.207939)} =    -0.00002984 (  -0.00546304)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.216625)} =    -0.00002724 (  -0.00521910)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.241694)} =    -0.00007062 (  -0.00840378)
+ RES{<<ZDIPLEN ,XDIPLEN >>(14.897348)} =    -0.00018937 (  -0.01376120)
+ RES{<<ZDIPLEN ,XDIPLEN >>(14.955462)} =    -0.00063816 (  -0.02526189)
+ RES{<<ZDIPLEN ,XDIPLEN >>(14.994450)} =     0.00042313 (   0.02057004)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.023708)} =     0.00045076 (   0.02123122)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.064556)} =    -0.00000008 (  -0.00028550)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.104622)} =    -0.00007127 (  -0.00844244)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.107838)} =     0.00003125 (   0.00559047)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.120494)} =     0.00001941 (   0.00440618)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.138713)} =    -0.00010269 (  -0.01013376)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.147354)} =     0.00014751 (   0.01214548)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.175946)} =     0.00002317 (   0.00481377)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.202205)} =     0.00000560 (   0.00236611)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.207939)} =     0.00006972 (   0.00834990)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.216625)} =     0.00003774 (   0.00614289)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.241694)} =    -0.00014680 (  -0.01211612)
+ RES{<<ZDIPLEN ,YDIPLEN >>(14.897348)} =     0.00084324 (   0.02903860)
+ RES{<<ZDIPLEN ,YDIPLEN >>(14.955462)} =     0.00054926 (   0.02343635)
+ RES{<<ZDIPLEN ,YDIPLEN >>(14.994450)} =    -0.00152174 (  -0.03900944)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.023708)} =     0.00013469 (   0.01160543)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.064556)} =    -0.00001400 (  -0.00374197)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.104622)} =    -0.00004185 (  -0.00646942)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.107838)} =    -0.00000939 (  -0.00306450)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.120494)} =     0.00009125 (   0.00955240)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.138713)} =    -0.00019303 (  -0.01389350)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.147354)} =     0.00006770 (   0.00822785)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.175946)} =    -0.00001428 (  -0.00377879)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.202205)} =    -0.00000511 (  -0.00226083)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.207939)} =    -0.00002984 (  -0.00546304)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.216625)} =    -0.00002724 (  -0.00521910)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.241694)} =    -0.00007062 (  -0.00840378)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(14.897348)} =     0.00074271 (   0.02725266)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(14.955462)} =     0.00272815 (   0.05223169)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(14.994450)} =     0.00087973 (   0.02966028)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.023708)} =     0.00006031 (   0.00776619)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.064556)} =     0.00000121 (   0.00110127)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.104622)} =     0.00002314 (   0.00481020)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.107838)} =     0.00000802 (   0.00283270)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.120494)} =     0.00009951 (   0.00997546)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.138713)} =     0.00011802 (   0.01086392)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.147354)} =     0.00006806 (   0.00824966)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.175946)} =     0.00000171 (   0.00130877)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.202205)} =     0.00001281 (   0.00357895)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.207939)} =     0.00006580 (   0.00811161)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.216625)} =     0.00013770 (   0.01173442)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.241694)} =     0.00007135 (   0.00844669)
+
+
+ CCSD  Transition strength matrix for state nr.  1 of symmetry 1
+ CCSD  excitation energy:14.89734795
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     4.828447D-05  -2.150038D-04  -1.893706D-04
+       2    -2.150038D-04   9.573803D-04   8.432401D-04
+       3    -1.893706D-04   8.432401D-04   7.427073D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00174837
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.14349943     0.97559782    -0.16618308
+       2      -0.67206886     0.02719580     0.73998907
+       3       0.72645121     0.21787448     0.65176633
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  1 of symmetry 1
+ CCSD  excitation energy:14.89734795
+
+
+               Column   1     Column   2     Column   3
+       1       0.00047954    -0.00213532    -0.00188075
+       2      -0.00213532     0.00950829     0.00837469
+       3      -0.00188075     0.00837469     0.00737625
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.01736407
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.14349943     0.97559782    -0.16618308
+       2      -0.67206886     0.02719580     0.73998907
+       3       0.72645121     0.21787448     0.65176633
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  2 of symmetry 1
+ CCSD  excitation energy:14.95546197
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1       0.00014928    -0.00012848    -0.00063816
+       2      -0.00012848     0.00011058     0.00054926
+       3      -0.00063816     0.00054926     0.00272815
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00298801
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.80602887    -0.54804982    -0.22351479
+       2       0.58769569     0.78587820     0.19237783
+       3       0.07022277    -0.28642076     0.95552703
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  2 of symmetry 1
+ CCSD  excitation energy:14.95546197
+
+
+               Column   1     Column   2     Column   3
+       1       0.00148832    -0.00128103    -0.00636268
+       2      -0.00128103     0.00110254     0.00547632
+       3      -0.00636268     0.00547632     0.02720049
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000004
+ 2       0.00000000
+ 3       0.02979139
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.80602887    -0.54804982    -0.22351479
+       2       0.58769569     0.78587820     0.19237783
+       3       0.07022277    -0.28642076     0.95552703
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  3 of symmetry 1
+ CCSD  excitation energy:14.99444998
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1       0.00020351    -0.00073191     0.00042313
+       2      -0.00073191     0.00263226    -0.00152174
+       3       0.00042313    -0.00152174     0.00087973
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00371550
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.91132794     0.33868563    -0.23403723
+       2       0.01557141     0.53972657     0.84169636
+       3      -0.41138657     0.77070570    -0.48659409
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  3 of symmetry 1
+ CCSD  excitation energy:14.99444998
+
+
+               Column   1     Column   2     Column   3
+       1       0.00203432    -0.00731639     0.00422970
+       2      -0.00731639     0.02631282    -0.01521173
+       3       0.00422970    -0.01521173     0.00879407
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000004
+ 2       0.00000000
+ 3       0.03714124
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.91132794     0.33868563    -0.23403723
+       2       0.01557141     0.53972657     0.84169636
+       3      -0.41138657     0.77070570    -0.48659409
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  4 of symmetry 1
+ CCSD  excitation energy:15.02370831
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1       0.00336847     0.00100645     0.00045076
+       2       0.00100645     0.00030071     0.00013469
+       3       0.00045076     0.00013469     0.00006031
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00372951
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.03713748    -0.30890982     0.95036600
+       2      -0.50935830     0.81235683     0.28395511
+       3       0.85975283     0.49462218     0.12717689
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  4 of symmetry 1
+ CCSD  excitation energy:15.02370831
+
+
+               Column   1     Column   2     Column   3
+       1       0.03373797     0.01008040     0.00451477
+       2       0.01008040     0.00301185     0.00134899
+       3       0.00451477     0.00134899     0.00060409
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000010
+ 2       0.00000000
+ 3       0.03735401
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.03713748    -0.30890982     0.95036600
+       2      -0.50935830     0.81235683     0.28395511
+       3       0.85975283     0.49462218     0.12717689
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  5 of symmetry 1
+ CCSD  excitation energy:15.06455575
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1    -1.105622D-08   1.023048D-06  -8.151194D-08
+       2     1.023048D-06   1.612565D-04  -1.400234D-05
+       3    -8.151194D-08  -1.400234D-05   1.212806D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000002
+ 2      -0.00000000
+ 3       0.00016248
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.92333145     0.38395201     0.00631574
+       2      -0.03902433     0.07745879     0.99623152
+       3      -0.38201588     0.92009836    -0.08650360
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  5 of symmetry 1
+ CCSD  excitation energy:15.06455575
+
+
+               Column   1     Column   2     Column   3
+       1      -0.00000011     0.00001027    -0.00000082
+       2       0.00001027     0.00161950    -0.00014063
+       3      -0.00000082    -0.00014063     0.00001218
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000021
+ 2      -0.00000000
+ 3       0.00163178
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.92333145     0.38395201     0.00631574
+       2      -0.03902433     0.07745879     0.99623152
+       3      -0.38201588     0.92009836    -0.08650360
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  6 of symmetry 1
+ CCSD  excitation energy:15.10462222
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     2.195563D-04   1.289270D-04  -7.127487D-05
+       2     1.289270D-04   7.570559D-05  -4.185334D-05
+       3    -7.127487D-05  -4.185334D-05   2.313799D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00031840
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.51299512     0.21743248     0.83039697
+       2       0.85792218     0.16185744     0.48761839
+       3      -0.02838185     0.96256184    -0.26957222
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  6 of symmetry 1
+ CCSD  excitation energy:15.10462222
+
+
+               Column   1     Column   2     Column   3
+       1       0.00221088     0.00129826    -0.00071772
+       2       0.00129826     0.00076234    -0.00042145
+       3      -0.00071772    -0.00042145     0.00023299
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000002
+ 2       0.00000000
+ 3       0.00320622
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.51299512     0.21743248     0.83039697
+       2       0.85792218     0.16185744     0.48761839
+       3      -0.02838185     0.96256184    -0.26957222
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  7 of symmetry 1
+ CCSD  excitation energy:15.10783786
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     1.217286D-04  -3.657857D-05   3.125338D-05
+       2    -3.657857D-05   1.097862D-05  -9.391132D-06
+       3     3.125338D-05  -9.391132D-06   8.024184D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00014074
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.27604256    -0.24268544     0.93000230
+       2       0.95993440     0.02105475    -0.27943272
+       3       0.04823328     0.96987652     0.23877412
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  7 of symmetry 1
+ CCSD  excitation energy:15.10783786
+
+
+               Column   1     Column   2     Column   3
+       1       0.00122604    -0.00036842     0.00031478
+       2      -0.00036842     0.00011058    -0.00009459
+       3       0.00031478    -0.00009459     0.00008082
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000012
+ 2      -0.00000000
+ 3       0.00141755
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.27604256    -0.24268544     0.93000230
+       2       0.95993440     0.02105475    -0.27943272
+       3       0.04823328     0.96987652     0.23877412
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  8 of symmetry 1
+ CCSD  excitation energy:15.12049364
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.787686D-06   1.780214D-05   1.941446D-05
+       2     1.780214D-05   8.367008D-05   9.124837D-05
+       3     1.941446D-05   9.124837D-05   9.950976D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00018697
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.11583748     0.98301740     0.14233224
+       2       0.72072248    -0.18178897     0.66896328
+       3      -0.68347698    -0.02509103     0.72954072
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  8 of symmetry 1
+ CCSD  excitation energy:15.12049364
+
+
+               Column   1     Column   2     Column   3
+       1       0.00003818     0.00017945     0.00019570
+       2       0.00017945     0.00084342     0.00091981
+       3       0.00019570     0.00091981     0.00100309
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000002
+ 2       0.00000000
+ 3       0.00188471
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.11583748     0.98301740     0.14233224
+       2       0.72072248    -0.18178897     0.66896328
+       3      -0.68347698    -0.02509103     0.72954072
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  9 of symmetry 1
+ CCSD  excitation energy:15.13871320
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     8.935124D-05   1.679567D-04  -1.026931D-04
+       2     1.679567D-04   3.156970D-04  -1.930294D-04
+       3    -1.026931D-04  -1.930294D-04   1.180247D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00052308
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.82970379     0.37519050     0.41330825
+       2      -0.53623051     0.33002456     0.77687877
+       3      -0.15507566     0.86620776    -0.47501122
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  9 of symmetry 1
+ CCSD  excitation energy:15.13871320
+
+
+               Column   1     Column   2     Column   3
+       1       0.00090178     0.00169510    -0.00103643
+       2       0.00169510     0.00318616    -0.00194814
+       3      -0.00103643    -0.00194814     0.00119116
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000004
+ 2      -0.00000000
+ 3       0.00527914
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.82970379     0.37519050     0.41330825
+       2      -0.53623051     0.33002456     0.77687877
+       3      -0.15507566     0.86620776    -0.47501122
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 10 of symmetry 1
+ CCSD  excitation energy:15.14735430
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.197304D-04   1.467325D-04   1.475126D-04
+       2     1.467325D-04   6.733914D-05   6.769753D-05
+       3     1.475126D-04   6.769753D-05   6.805696D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00045513
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.04680659    -0.54341601     0.83815761
+       2      -0.65563799     0.64975502     0.38465211
+       3       0.75362323     0.53152372     0.38669699
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 10 of symmetry 1
+ CCSD  excitation energy:15.14735430
+
+
+               Column   1     Column   2     Column   3
+       1       0.00322871     0.00148174     0.00148962
+       2       0.00148174     0.00068001     0.00068363
+       3       0.00148962     0.00068363     0.00068726
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00459598
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.04680659    -0.54341601     0.83815761
+       2      -0.65563799     0.64975502     0.38465211
+       3       0.75362323     0.53152372     0.38669699
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 11 of symmetry 1
+ CCSD  excitation energy:15.17594608
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.134772D-04  -1.931730D-04   2.317239D-05
+       2    -1.931730D-04   1.190373D-04  -1.427927D-05
+       3     2.317239D-05  -1.427927D-05   1.712886D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00043423
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.52663435     0.02715869     0.84965797
+       2       0.83635648     0.16239215    -0.52358058
+       3      -0.15219755     0.98635247     0.06280694
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 11 of symmetry 1
+ CCSD  excitation energy:15.17594608
+
+
+               Column   1     Column   2     Column   3
+       1       0.00317154    -0.00195439     0.00023444
+       2      -0.00195439     0.00120434    -0.00014447
+       3       0.00023444    -0.00014447     0.00001733
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00439322
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.52663435     0.02715869     0.84965797
+       2       0.83635648     0.16239215    -0.52358058
+       3      -0.15219755     0.98635247     0.06280694
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 12 of symmetry 1
+ CCSD  excitation energy:15.20220468
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     2.446953D-06  -2.234164D-06   5.598489D-06
+       2    -2.234164D-06   2.039197D-06  -5.111363D-06
+       3     5.598489D-06  -5.111363D-06   1.280891D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00001730
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.31440132     0.87159061     0.37614041
+       2       0.92098343    -0.18402039    -0.34340358
+       3       0.23008983    -0.45438563     0.86057677
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 12 of symmetry 1
+ CCSD  excitation energy:15.20220468
+
+
+               Column   1     Column   2     Column   3
+       1     2.479939D-05  -2.264281D-05   5.673959D-05
+       2    -2.264281D-05   2.066686D-05  -5.180266D-05
+       3     5.673959D-05  -5.180266D-05   1.298158D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00017529
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.31440132     0.87159061     0.37614041
+       2       0.92098343    -0.18402039    -0.34340358
+       3       0.23008983    -0.45438563     0.86057677
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 13 of symmetry 1
+ CCSD  excitation energy:15.20793901
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     7.387391D-05  -3.162094D-05   6.972083D-05
+       2    -3.162094D-05   1.353416D-05  -2.984484D-05
+       3     6.972083D-05  -2.984484D-05   6.579829D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00015321
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.33732959     0.63563390     0.69439059
+       2       0.66999015     0.68026948    -0.29723162
+       3       0.66130322    -0.36496983     0.65534347
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 13 of symmetry 1
+ CCSD  excitation energy:15.20793901
+
+
+               Column   1     Column   2     Column   3
+       1     7.489800D-04  -3.205929D-04   7.068735D-04
+       2    -3.205929D-04   1.372178D-04  -3.025857D-04
+       3     7.068735D-04  -3.025857D-04   6.671042D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000003
+ 2       0.00000000
+ 3       0.00155333
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.33732959     0.63563390     0.69439059
+       2       0.66999015     0.68026948    -0.29723162
+       3       0.66130322    -0.36496983     0.65534347
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 14 of symmetry 1
+ CCSD  excitation energy:15.21662531
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     1.034058D-05  -7.464322D-06   3.773505D-05
+       2    -7.464322D-06   5.388104D-06  -2.723898D-05
+       3     3.773505D-05  -2.723898D-05   1.376967D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00015343
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.76400348     0.59067603     0.25961608
+       2      -0.56016355     0.80690567    -0.18740340
+       3      -0.32018038    -0.00225061     0.94735392
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 14 of symmetry 1
+ CCSD  excitation energy:15.21662531
+
+
+               Column   1     Column   2     Column   3
+       1       0.00010490    -0.00007572     0.00038280
+       2      -0.00007572     0.00005466    -0.00027632
+       3       0.00038280    -0.00027632     0.00139685
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2       0.00000000
+ 3       0.00155642
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.76400348     0.59067603     0.25961608
+       2      -0.56016355     0.80690567    -0.18740340
+       3      -0.32018038    -0.00225061     0.94735392
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 15 of symmetry 1
+ CCSD  excitation energy:15.24169425
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.020511D-04   1.453130D-04  -1.468003D-04
+       2     1.453130D-04   6.990737D-05  -7.062358D-05
+       3    -1.468003D-04  -7.062358D-05   7.134660D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00044331
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.45255871     0.33738654     0.82544590
+       2       0.89034008     0.22270534     0.39711067
+       3      -0.04985141     0.91464346    -0.40117600
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 15 of symmetry 1
+ CCSD  excitation energy:15.24169425
+
+
+               Column   1     Column   2     Column   3
+       1       0.00306918     0.00147654    -0.00149166
+       2       0.00147654     0.00071034    -0.00071762
+       3      -0.00149166    -0.00071762     0.00072496
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00450449
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.45255871     0.33738654     0.82544590
+       2       0.89034008     0.22270534     0.39711067
+       3      -0.04985141     0.91464346    -0.40117600
+    ==== End of matrix output ====
+
+  Total time for    135 linear response residues:     113.94 seconds.
+  
+
+ *******************************************************************************
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *                   SUMMARY OF COUPLED CLUSTER CALCULATION                    *
+ *                                                                             *
+ *                                                                             *
+ *******************************************************************************
+ *******************************************************************************
+
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.1568120051                
+            Total MP2   energy:                  -362.2688631435                
+            Total CCSD  energy:                  -362.3096083601                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.1568120051                
+            Total RSTAR energy:                  -362.3096083601                
+            Total CCSD  energy:                  -362.3097523438                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.1568120051                
+            Total RSTAR energy:                  -362.3097523438                
+            Total CCSD  energy:                  -362.3097531853                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.1568120051                
+            Total RSTAR energy:                  -362.3097531853                
+            Total CCSD  energy:                  -362.3097533081                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.1568120051                
+            Total RSTAR energy:                  -362.3097533081                
+            Total CCSD  energy:                  -362.3097533118                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.1568120051                
+            Total RSTAR energy:                  -362.3097533118                
+            Total CCSD  energy:                  -362.3097533121                
+            CCSD Total  energy:                  -362.6998901565                
+            CCSD E(QM/MM)     :                    -0.3853393252                
+                                                                                
+                                                                                
+                                                                                
+ +=============================================================================+
+ |  sym. | Exci.  |        CCSD       Excitation energies            | ||T1||  |
+ |(spin, |        +------------------------------------------------------------+
+ | spat) |        |     Hartree    |       eV.      |     cm-1       |    %    |
+ +=============================================================================+
+ | ^1A   |    1   |    14.8973480  |     405.37746  |   3269589.920  |  88.13  |
+ | ^1A   |    2   |    14.9554620  |     406.95882  |   3282344.472  |  88.40  |
+ | ^1A   |    3   |    14.9944500  |     408.01974  |   3290901.352  |  88.62  |
+ | ^1A   |    4   |    15.0237083  |     408.81590  |   3297322.812  |  88.62  |
+ | ^1A   |    5   |    15.0645557  |     409.92741  |   3306287.789  |  87.76  |
+ | ^1A   |    6   |    15.1046222  |     411.01768  |   3315081.363  |  87.68  |
+ | ^1A   |    7   |    15.1078379  |     411.10518  |   3315787.114  |  87.66  |
+ | ^1A   |    8   |    15.1204936  |     411.44956  |   3318564.737  |  87.55  |
+ | ^1A   |    9   |    15.1387132  |     411.94534  |   3322563.469  |  87.64  |
+ | ^1A   |   10   |    15.1473543  |     412.18048  |   3324459.970  |  87.74  |
+ | ^1A   |   11   |    15.1759461  |     412.95850  |   3330735.141  |  87.82  |
+ | ^1A   |   12   |    15.2022047  |     413.67303  |   3336498.237  |  87.61  |
+ | ^1A   |   13   |    15.2079390  |     413.82907  |   3337756.776  |  87.55  |
+ | ^1A   |   14   |    15.2166253  |     414.06544  |   3339663.199  |  87.51  |
+ | ^1A   |   15   |    15.2416942  |     414.74760  |   3345165.195  |  87.85  |
+ +=============================================================================+
+                                                                                
+                                                                                
+     Total energies in Hartree:                                                 
+             1 ^1A       -347.4172028771                                        
+             2 ^1A       -347.3590888649                                        
+             3 ^1A       -347.3201008493                                        
+             4 ^1A       -347.2908425261                                        
+             5 ^1A       -347.2499950818                                        
+             6 ^1A       -347.2099286102                                        
+             7 ^1A       -347.2067129748                                        
+             8 ^1A       -347.1940571916                                        
+             9 ^1A       -347.1758376302                                        
+            10 ^1A       -347.1671965351                                        
+            11 ^1A       -347.1386047486                                        
+            12 ^1A       -347.1123461507                                        
+            13 ^1A       -347.1066118255                                        
+            14 ^1A       -347.0979255224                                        
+            15 ^1A       -347.0728565845                                        
+                                                                                
+                                                                                
+ +=============================================================================+
+ |  sym. | Exci.  |        CCSD       Length   Gauge Oscillator Strength       |
+ |(spin, |        +------------------------------------------------------------+
+ | spat) |        | Dipole Strength(a.u.) | Oscillator strength  | Direction   |
+ +=============================================================================+
+ | ^1A   |    1   |        0.0017484      |      0.0173641       |  (Y,Z)      |
+ | ^1A   |    2   |        0.0029880      |      0.0297914       |  (Y,Z)      |
+ | ^1A   |    3   |        0.0037155      |      0.0371412       |  (Y,Z)      |
+ | ^1A   |    4   |        0.0037295      |      0.0373539       |  (Y,Z)      |
+ | ^1A   |    5   |        0.0001625      |      0.0016316       |  (Y,Z)      |
+ | ^1A   |    6   |        0.0003184      |      0.0032062       |  (Y,Z)      |
+ | ^1A   |    7   |        0.0001407      |      0.0014174       |  (Y,Z)      |
+ | ^1A   |    8   |        0.0001870      |      0.0018847       |  (Y,Z)      |
+ | ^1A   |    9   |        0.0005231      |      0.0052791       |  (Y,Z)      |
+ | ^1A   |   10   |        0.0004551      |      0.0045960       |  (Y,Z)      |
+ | ^1A   |   11   |        0.0004342      |      0.0043932       |  (Y,Z)      |
+ | ^1A   |   12   |        0.0000173      |      0.0001753       |  (Y,Z)      |
+ | ^1A   |   13   |        0.0001532      |      0.0015533       |  (Y,Z)      |
+ | ^1A   |   14   |        0.0001534      |      0.0015564       |  (Y,Z)      |
+ | ^1A   |   15   |        0.0004433      |      0.0045045       |  (Y,Z)      |
+ +=============================================================================+
+
+  1 a.u. =        27.21138 eV.  
+  1 a.u. =    219474.62934 cm-1.
+  
+
+ *******************************************************************************
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *                      END OF COUPLED CLUSTER CALCULATION                     *
+ *                                                                             *
+ *                                                                             *
+ *******************************************************************************
+ *******************************************************************************
+
+
+ CPU and wall time for CC :  457800.075   50045.586
+
+ 
+     Date and time (Linux)  : Sun Jan 13 11:50:00 2019
+     Host name              : n-62-29-33                              
+
+
+                      .-------------------------------------.
+                      | End of Coupled Cluster Section (CC) |
+                      `-------------------------------------'
+
+  Total CPU  time used in DALTON: 127 hours 23 minutes 13 seconds
+  Total wall time used in DALTON:  13 hours 56 minutes 35 seconds
+
+ 
+     Date and time (Linux)  : Sun Jan 13 11:50:00 2019
+     Host name              : n-62-29-33                              
+  
+
+ +---------------------------------------------------------+ 
+ | List of selected calculated molecular properties (a.u.) | 
+ +---------------------------------------------------------+ 
+
+  Properties are read from unit number                      4
+
+ CCSD       properties :
+ #  1 1 CCSD/MM  Ground state Energy =    -362.6998901565
+ #  2 1 E_QM/MM  Ground state Energy =      -0.3853393252
+ #  3 1 Sy: 1 Sp: 1 Exc:  1 E_tot:   -347.4172028771 w:     14.8973479542 E_grs:   -362.3145508313
+ #  4 1 Exctot   Excited state Energy =    -347.4172028771
+ #  5 1 Sy: 1 Sp: 1 Exc:  2 E_tot:   -347.3590888649 w:     14.9554619664 E_grs:   -362.3145508313
+ #  6 1 Exctot   Excited state Energy =    -347.3590888649
+ #  7 1 Sy: 1 Sp: 1 Exc:  3 E_tot:   -347.3201008493 w:     14.9944499819 E_grs:   -362.3145508313
+ #  8 1 Exctot   Excited state Energy =    -347.3201008493
+ #  9 1 Sy: 1 Sp: 1 Exc:  4 E_tot:   -347.2908425261 w:     15.0237083051 E_grs:   -362.3145508313
+ # 10 1 Exctot   Excited state Energy =    -347.2908425261
+ # 11 1 Sy: 1 Sp: 1 Exc:  5 E_tot:   -347.2499950818 w:     15.0645557495 E_grs:   -362.3145508313
+ # 12 1 Exctot   Excited state Energy =    -347.2499950818
+ # 13 1 Sy: 1 Sp: 1 Exc:  6 E_tot:   -347.2099286102 w:     15.1046222211 E_grs:   -362.3145508313
+ # 14 1 Exctot   Excited state Energy =    -347.2099286102
+ # 15 1 Sy: 1 Sp: 1 Exc:  7 E_tot:   -347.2067129748 w:     15.1078378565 E_grs:   -362.3145508313
+ # 16 1 Exctot   Excited state Energy =    -347.2067129748
+ # 17 1 Sy: 1 Sp: 1 Exc:  8 E_tot:   -347.1940571916 w:     15.1204936397 E_grs:   -362.3145508313
+ # 18 1 Exctot   Excited state Energy =    -347.1940571916
+ # 19 1 Sy: 1 Sp: 1 Exc:  9 E_tot:   -347.1758376302 w:     15.1387132011 E_grs:   -362.3145508313
+ # 20 1 Exctot   Excited state Energy =    -347.1758376302
+ # 21 1 Sy: 1 Sp: 1 Exc: 10 E_tot:   -347.1671965351 w:     15.1473542962 E_grs:   -362.3145508313
+ # 22 1 Exctot   Excited state Energy =    -347.1671965351
+ # 23 1 Sy: 1 Sp: 1 Exc: 11 E_tot:   -347.1386047486 w:     15.1759460826 E_grs:   -362.3145508313
+ # 24 1 Exctot   Excited state Energy =    -347.1386047486
+ # 25 1 Sy: 1 Sp: 1 Exc: 12 E_tot:   -347.1123461507 w:     15.2022046806 E_grs:   -362.3145508313
+ # 26 1 Exctot   Excited state Energy =    -347.1123461507
+ # 27 1 Sy: 1 Sp: 1 Exc: 13 E_tot:   -347.1066118255 w:     15.2079390057 E_grs:   -362.3145508313
+ # 28 1 Exctot   Excited state Energy =    -347.1066118255
+ # 29 1 Sy: 1 Sp: 1 Exc: 14 E_tot:   -347.0979255224 w:     15.2166253089 E_grs:   -362.3145508313
+ # 30 1 Exctot   Excited state Energy =    -347.0979255224
+ # 31 1 Sy: 1 Sp: 1 Exc: 15 E_tot:   -347.0728565845 w:     15.2416942468 E_grs:   -362.3145508313
+ # 32 1 Exctot   Excited state Energy =    -347.0728565845
+ # 33 1 |<O|XDIPLEN |i(14.897348)>| =     0.00694870
+ # 35 1 |<O|XDIPLEN |i(14.955462)>| =     0.01221782
+ # 37 1 |<O|XDIPLEN |i(14.994450)>| =     0.01426561
+ # 39 1 |<O|XDIPLEN |i(15.023708)>| =     0.05803855
+ # 41 1 |<O|XDIPLEN |i(15.064556)>| =    -0.00010515
+ # 43 1 |<O|XDIPLEN |i(15.104622)>| =     0.01481743
+ # 45 1 |<O|XDIPLEN |i(15.107838)>| =     0.01103307
+ # 47 1 |<O|XDIPLEN |i(15.120494)>| =     0.00194620
+ # 49 1 |<O|XDIPLEN |i(15.138713)>| =     0.00945258
+ # 51 1 |<O|XDIPLEN |i(15.147354)>| =     0.01788101
+ # 53 1 |<O|XDIPLEN |i(15.175946)>| =     0.01770529
+ # 55 1 |<O|XDIPLEN |i(15.202205)>| =     0.00156427
+ # 57 1 |<O|XDIPLEN |i(15.207939)>| =     0.00859499
+ # 59 1 |<O|XDIPLEN |i(15.216625)>| =     0.00321568
+ # 61 1 |<O|XDIPLEN |i(15.241694)>| =     0.01737962
+ # 63 1 |<O|YDIPLEN |i(14.897348)>| =     0.03094156
+ # 65 1 |<O|YDIPLEN |i(14.955462)>| =     0.01051583
+ # 67 1 |<O|YDIPLEN |i(14.994450)>| =     0.05130551
+ # 69 1 |<O|YDIPLEN |i(15.023708)>| =     0.01734098
+ # 71 1 |<O|YDIPLEN |i(15.064556)>| =     0.01269868
+ # 73 1 |<O|YDIPLEN |i(15.104622)>| =     0.00870090
+ # 75 1 |<O|YDIPLEN |i(15.107838)>| =     0.00331340
+ # 77 1 |<O|YDIPLEN |i(15.120494)>| =     0.00914713
+ # 79 1 |<O|YDIPLEN |i(15.138713)>| =     0.01776786
+ # 81 1 |<O|YDIPLEN |i(15.147354)>| =     0.00820604
+ # 83 1 |<O|YDIPLEN |i(15.175946)>| =     0.01091042
+ # 85 1 |<O|YDIPLEN |i(15.202205)>| =     0.00142800
+ # 87 1 |<O|YDIPLEN |i(15.207939)>| =     0.00367888
+ # 89 1 |<O|YDIPLEN |i(15.216625)>| =     0.00232123
+ # 91 1 |<O|YDIPLEN |i(15.241694)>| =     0.00836106
+ # 93 1 |<O|ZDIPLEN |i(14.897348)>| =     0.02725266
+ # 95 1 |<O|ZDIPLEN |i(14.955462)>| =     0.05223169
+ # 97 1 |<O|ZDIPLEN |i(14.994450)>| =     0.02966028
+ # 99 1 |<O|ZDIPLEN |i(15.023708)>| =     0.00776619
+ #101 1 |<O|ZDIPLEN |i(15.064556)>| =     0.00110127
+ #103 1 |<O|ZDIPLEN |i(15.104622)>| =     0.00481020
+ #105 1 |<O|ZDIPLEN |i(15.107838)>| =     0.00283270
+ #107 1 |<O|ZDIPLEN |i(15.120494)>| =     0.00997546
+ #109 1 |<O|ZDIPLEN |i(15.138713)>| =     0.01086392
+ #111 1 |<O|ZDIPLEN |i(15.147354)>| =     0.00824966
+ #113 1 |<O|ZDIPLEN |i(15.175946)>| =     0.00130877
+ #115 1 |<O|ZDIPLEN |i(15.202205)>| =     0.00357895
+ #117 1 |<O|ZDIPLEN |i(15.207939)>| =     0.00811161
+ #119 1 |<O|ZDIPLEN |i(15.216625)>| =     0.01173442
+ #121 1 |<O|ZDIPLEN |i(15.241694)>| =     0.00844669
+
+ THE_END   
