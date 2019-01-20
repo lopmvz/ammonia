@@ -9,7 +9,7 @@
 #fi
 #done
 #
-for i in {222..410..10}
+for i in {222..608..2}
 do
 python2 ~/Workdir/NH3NH4/read.py  PE_NH3_4H2O_step${i}0_nd.out > PE_NH3_4H2O_step${i}0.txt
 if [ -s "PE_NH3_4H2O_step${i}0.txt" ]

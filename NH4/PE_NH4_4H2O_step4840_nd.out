@@ -12176,3 +12176,1463 @@ Try to use right eigenvector as start for a left eigenvector.
  CCRED CVS/IONIS sigma_                   120 
  project out valence occupied or virtual
       8      15       148.49     0.12E-05
+ CCRED CVS/IONIS sigma_                   121 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   122 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   123 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   124 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   125 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   126 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   127 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   128 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   129 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   130 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   131 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   132 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   133 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   134 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   135 
+ project out valence occupied or virtual
+      9      15       223.82     0.18E-06
+ CCRED CVS/IONIS sigma_                   136 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   137 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   138 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   139 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   140 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   141 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   142 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   143 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   144 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   145 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   146 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   147 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   148 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   149 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   150 
+ project out valence occupied or virtual
+     10      15       266.75     0.22E-07
+ CCRED CVS/IONIS sigma_                   151 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   152 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   153 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   154 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   155 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   156 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   157 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   158 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   159 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   160 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   161 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   162 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   163 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   164 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   165 
+ project out valence occupied or virtual
+     11      15       259.87     0.22E-08
+ CCRED CVS/IONIS sigma_                   166 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   167 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   168 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   169 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   170 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   171 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   172 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   173 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   174 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   175 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   176 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   177 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   178 
+ project out valence occupied or virtual
+ CCRED CVS/IONIS sigma_                   179 
+ project out valence occupied or virtual
+     12      14       239.86     0.28E-09
+    --------------------------------------
+    converged in 12 iterations
+    threshold:    0.10E-08
+
+
+         Routine          Time (min)
+         ---------------------------
+         CC_TRDRV         2101.84
+         CCRED             126.56
+         CCNEX             103.62
+         ---------------------------
+         Total time       2332.02
+
+
+  Total CPU  time used in CCEQ_SOLV:  38 hours 52 minutes  1 second 
+  Total wall time used in CCEQ_SOLV:  15 hours 23 minutes  1 second 
+
+
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ 
+ Solution of CC response equations completed.
+ 
+
+ *******************************************************************
+ *                                                                 *
+ *--------  OUTPUT FROM COUPLED CLUSTER LINEAR RESPONSE   ---------*
+ *                                                                 *
+ *--------      CALCULATION OF SECOND ORDER RESIDUES      ---------*
+ *                                                                 *
+ *******************************************************************
+
+
+
+                  +---------------------------------------------+
+                  ! CC_SOPR: Calculation of CCSD       Residues !
+                  +---------------------------------------------+
+
+ Doing the Mf*CsiA
+ Doing the Mf*CsiA
+ Doing the Mf*CsiA
+
+
+ CCSD  Right transition moments in atomic units:
+ -----------------------------------------------
+
+  1      14.930293  <XDIPLEN |f> =       0.00923275
+  2      14.977846  <XDIPLEN |f> =       0.02348451
+  3      14.994288  <XDIPLEN |f> =       0.08333126
+  4      15.010885  <XDIPLEN |f> =      -0.03912068
+  5      15.064505  <XDIPLEN |f> =       0.00258485
+  6      15.077153  <XDIPLEN |f> =       0.00354673
+  7      15.114274  <XDIPLEN |f> =      -0.00050956
+  8      15.141814  <XDIPLEN |f> =       0.02397511
+  9      15.165550  <XDIPLEN |f> =      -0.00747191
+ 10      15.190537  <XDIPLEN |f> =       0.00629699
+ 11      15.193849  <XDIPLEN |f> =       0.01216275
+ 12      15.208485  <XDIPLEN |f> =      -0.00430763
+ 13      15.219575  <XDIPLEN |f> =      -0.01274785
+ 14      15.234655  <XDIPLEN |f> =       0.01021743
+ 15      15.257830  <XDIPLEN |f> =      -0.00832948
+  1      14.930293  <YDIPLEN |f> =      -0.01842296
+  2      14.977846  <YDIPLEN |f> =       0.02932601
+  3      14.994288  <YDIPLEN |f> =       0.03423263
+  4      15.010885  <YDIPLEN |f> =       0.07558172
+  5      15.064505  <YDIPLEN |f> =      -0.00803217
+  6      15.077153  <YDIPLEN |f> =      -0.02940671
+  7      15.114274  <YDIPLEN |f> =      -0.03346495
+  8      15.141814  <YDIPLEN |f> =       0.00544433
+  9      15.165550  <YDIPLEN |f> =      -0.00001959
+ 10      15.190537  <YDIPLEN |f> =      -0.00924095
+ 11      15.193849  <YDIPLEN |f> =      -0.00536775
+ 12      15.208485  <YDIPLEN |f> =       0.01566518
+ 13      15.219575  <YDIPLEN |f> =      -0.00862822
+ 14      15.234655  <YDIPLEN |f> =      -0.01030022
+ 15      15.257830  <YDIPLEN |f> =       0.01661465
+  1      14.930293  <ZDIPLEN |f> =       0.00205800
+  2      14.977846  <ZDIPLEN |f> =      -0.08526711
+  3      14.994288  <ZDIPLEN |f> =       0.03224015
+  4      15.010885  <ZDIPLEN |f> =       0.01326590
+  5      15.064505  <ZDIPLEN |f> =      -0.00257183
+  6      15.077153  <ZDIPLEN |f> =      -0.00827353
+  7      15.114274  <ZDIPLEN |f> =      -0.00031202
+  8      15.141814  <ZDIPLEN |f> =      -0.00513286
+  9      15.165550  <ZDIPLEN |f> =      -0.00294499
+ 10      15.190537  <ZDIPLEN |f> =      -0.00269261
+ 11      15.193849  <ZDIPLEN |f> =       0.01100244
+ 12      15.208485  <ZDIPLEN |f> =      -0.01283614
+ 13      15.219575  <ZDIPLEN |f> =       0.00568565
+ 14      15.234655  <ZDIPLEN |f> =      -0.01063887
+ 15      15.257830  <ZDIPLEN |f> =       0.00169846
+
+
+ CCSD  Left  transition moments in atomic units:
+ -----------------------------------------------
+
+  1      14.930293  <f|XDIPLEN > =       0.00428527
+  2      14.977846  <f|XDIPLEN > =       0.01086987
+  3      14.994288  <f|XDIPLEN > =       0.03867642
+  4      15.010885  <f|XDIPLEN > =      -0.01824031
+  5      15.064505  <f|XDIPLEN > =       0.00121280
+  6      15.077153  <f|XDIPLEN > =       0.00157721
+  7      15.114274  <f|XDIPLEN > =      -0.00019536
+  8      15.141814  <f|XDIPLEN > =       0.01090003
+  9      15.165550  <f|XDIPLEN > =      -0.00347199
+ 10      15.190537  <f|XDIPLEN > =       0.00290668
+ 11      15.193849  <f|XDIPLEN > =       0.00559207
+ 12      15.208485  <f|XDIPLEN > =      -0.00200373
+ 13      15.219575  <f|XDIPLEN > =      -0.00568471
+ 14      15.234655  <f|XDIPLEN > =       0.00461869
+ 15      15.257830  <f|XDIPLEN > =      -0.00371609
+  1      14.930293  <f|YDIPLEN > =      -0.00855288
+  2      14.977846  <f|YDIPLEN > =       0.01357748
+  3      14.994288  <f|YDIPLEN > =       0.01584478
+  4      15.010885  <f|YDIPLEN > =       0.03514090
+  5      15.064505  <f|YDIPLEN > =      -0.00370720
+  6      15.077153  <f|YDIPLEN > =      -0.01340779
+  7      15.114274  <f|YDIPLEN > =      -0.01528972
+  8      15.141814  <f|YDIPLEN > =       0.00244848
+  9      15.165550  <f|YDIPLEN > =      -0.00004499
+ 10      15.190537  <f|YDIPLEN > =      -0.00424094
+ 11      15.193849  <f|YDIPLEN > =      -0.00252833
+ 12      15.208485  <f|YDIPLEN > =       0.00708779
+ 13      15.219575  <f|YDIPLEN > =      -0.00386523
+ 14      15.234655  <f|YDIPLEN > =      -0.00468516
+ 15      15.257830  <f|YDIPLEN > =       0.00745433
+  1      14.930293  <f|ZDIPLEN > =       0.00089996
+  2      14.977846  <f|ZDIPLEN > =      -0.03960124
+  3      14.994288  <f|ZDIPLEN > =       0.01501293
+  4      15.010885  <f|ZDIPLEN > =       0.00614687
+  5      15.064505  <f|ZDIPLEN > =      -0.00124458
+  6      15.077153  <f|ZDIPLEN > =      -0.00384282
+  7      15.114274  <f|ZDIPLEN > =      -0.00012468
+  8      15.141814  <f|ZDIPLEN > =      -0.00226770
+  9      15.165550  <f|ZDIPLEN > =      -0.00136108
+ 10      15.190537  <f|ZDIPLEN > =      -0.00113260
+ 11      15.193849  <f|ZDIPLEN > =       0.00491893
+ 12      15.208485  <f|ZDIPLEN > =      -0.00574856
+ 13      15.219575  <f|ZDIPLEN > =       0.00257311
+ 14      15.234655  <f|ZDIPLEN > =      -0.00478911
+ 15      15.257830  <f|ZDIPLEN > =       0.00079224
+
+
+ CCSD  linear response residue property in atomic units:
+ -------------------------------------------------------
+
+ RES{<<XDIPLEN ,XDIPLEN >>(14.930293)} =     0.00003956 (   0.00629006)
+ RES{<<XDIPLEN ,XDIPLEN >>(14.977846)} =     0.00025527 (   0.01597728)
+ RES{<<XDIPLEN ,XDIPLEN >>(14.994288)} =     0.00322296 (   0.05677108)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.010885)} =     0.00071357 (   0.02671279)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.064505)} =     0.00000313 (   0.00177057)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.077153)} =     0.00000559 (   0.00236515)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.114274)} =     0.00000010 (   0.00031551)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.141814)} =     0.00026133 (   0.01616569)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.165550)} =     0.00002594 (   0.00509336)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.190537)} =     0.00001830 (   0.00427824)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.193849)} =     0.00006801 (   0.00824712)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.208485)} =     0.00000863 (   0.00293791)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.219575)} =     0.00007247 (   0.00851280)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.234655)} =     0.00004719 (   0.00686958)
+ RES{<<XDIPLEN ,XDIPLEN >>(15.257830)} =     0.00003095 (   0.00556355)
+ RES{<<XDIPLEN ,YDIPLEN >>(14.930293)} =    -0.00007896 (  -0.00888578)
+ RES{<<XDIPLEN ,YDIPLEN >>(14.977846)} =     0.00031882 (   0.01785539)
+ RES{<<XDIPLEN ,YDIPLEN >>(14.994288)} =     0.00132218 (   0.03636180)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.010885)} =    -0.00137668 (  -0.03710370)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.064505)} =    -0.00000966 (  -0.00310837)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.077153)} =    -0.00004697 (  -0.00685326)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.114274)} =     0.00000716 (   0.00267662)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.141814)} =     0.00005902 (   0.00768264)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.165550)} =     0.00000020 (   0.00044956)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.190537)} =    -0.00002678 (  -0.00517521)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.193849)} =    -0.00003038 (  -0.00551218)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.208485)} =    -0.00003096 (  -0.00556418)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.219575)} =     0.00004916 (   0.00701150)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.234655)} =    -0.00004772 (  -0.00690810)
+ RES{<<XDIPLEN ,YDIPLEN >>(15.257830)} =    -0.00006192 (  -0.00786868)
+ RES{<<XDIPLEN ,ZDIPLEN >>(14.930293)} =     0.00000856 (   0.00292645)
+ RES{<<XDIPLEN ,ZDIPLEN >>(14.977846)} =    -0.00092843 (  -0.03047013)
+ RES{<<XDIPLEN ,ZDIPLEN >>(14.994288)} =     0.00124899 (   0.03534105)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.010885)} =    -0.00024122 (  -0.01553132)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.064505)} =    -0.00000317 (  -0.00177991)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.077153)} =    -0.00001334 (  -0.00365230)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.114274)} =     0.00000006 (   0.00024949)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.141814)} =    -0.00005516 (  -0.00742686)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.165550)} =     0.00001020 (   0.00319334)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.190537)} =    -0.00000748 (  -0.00273483)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.193849)} =     0.00006068 (   0.00778955)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.208485)} =     0.00002524 (   0.00502408)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.219575)} =    -0.00003256 (  -0.00570626)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.234655)} =    -0.00004904 (  -0.00700250)
+ RES{<<XDIPLEN ,ZDIPLEN >>(15.257830)} =    -0.00000646 (  -0.00254073)
+ RES{<<YDIPLEN ,XDIPLEN >>(14.930293)} =    -0.00007896 (  -0.00888578)
+ RES{<<YDIPLEN ,XDIPLEN >>(14.977846)} =     0.00031882 (   0.01785539)
+ RES{<<YDIPLEN ,XDIPLEN >>(14.994288)} =     0.00132218 (   0.03636180)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.010885)} =    -0.00137668 (  -0.03710370)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.064505)} =    -0.00000966 (  -0.00310837)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.077153)} =    -0.00004697 (  -0.00685326)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.114274)} =     0.00000716 (   0.00267662)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.141814)} =     0.00005902 (   0.00768264)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.165550)} =     0.00000020 (   0.00044956)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.190537)} =    -0.00002678 (  -0.00517521)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.193849)} =    -0.00003038 (  -0.00551218)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.208485)} =    -0.00003096 (  -0.00556418)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.219575)} =     0.00004916 (   0.00701150)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.234655)} =    -0.00004772 (  -0.00690810)
+ RES{<<YDIPLEN ,XDIPLEN >>(15.257830)} =    -0.00006192 (  -0.00786868)
+ RES{<<YDIPLEN ,YDIPLEN >>(14.930293)} =     0.00015757 (   0.01255266)
+ RES{<<YDIPLEN ,YDIPLEN >>(14.977846)} =     0.00039817 (   0.01995428)
+ RES{<<YDIPLEN ,YDIPLEN >>(14.994288)} =     0.00054241 (   0.02328966)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.010885)} =     0.00265601 (   0.05153648)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.064505)} =     0.00002978 (   0.00545681)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.077153)} =     0.00039428 (   0.01985646)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.114274)} =     0.00051167 (   0.02262011)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.141814)} =     0.00001333 (   0.00365108)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.165550)} =     0.00000000 (   0.00002969)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.190537)} =     0.00003919 (   0.00626022)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.193849)} =     0.00001357 (   0.00368394)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.208485)} =     0.00011103 (   0.01053715)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.219575)} =     0.00003335 (   0.00577495)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.234655)} =     0.00004826 (   0.00694681)
+ RES{<<YDIPLEN ,YDIPLEN >>(15.257830)} =     0.00012385 (   0.01112884)
+ RES{<<YDIPLEN ,ZDIPLEN >>(14.930293)} =    -0.00001709 (  -0.00413412)
+ RES{<<YDIPLEN ,ZDIPLEN >>(14.977846)} =    -0.00115953 (  -0.03405186)
+ RES{<<YDIPLEN ,ZDIPLEN >>(14.994288)} =     0.00051239 (   0.02263592)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.010885)} =     0.00046538 (   0.02157275)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.064505)} =     0.00000977 (   0.00312498)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.077153)} =     0.00011197 (   0.01058146)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.114274)} =     0.00000447 (   0.00211462)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.141814)} =    -0.00001246 (  -0.00352943)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.165550)} =     0.00000008 (   0.00028211)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.190537)} =     0.00001094 (   0.00330798)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.193849)} =    -0.00002711 (  -0.00520679)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.208485)} =    -0.00009052 (  -0.00951399)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.219575)} =    -0.00002209 (  -0.00469988)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.234655)} =     0.00004959 (   0.00704179)
+ RES{<<YDIPLEN ,ZDIPLEN >>(15.257830)} =     0.00001291 (   0.00359331)
+ RES{<<ZDIPLEN ,XDIPLEN >>(14.930293)} =     0.00000856 (   0.00292645)
+ RES{<<ZDIPLEN ,XDIPLEN >>(14.977846)} =    -0.00092843 (  -0.03047013)
+ RES{<<ZDIPLEN ,XDIPLEN >>(14.994288)} =     0.00124899 (   0.03534105)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.010885)} =    -0.00024122 (  -0.01553132)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.064505)} =    -0.00000317 (  -0.00177991)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.077153)} =    -0.00001334 (  -0.00365230)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.114274)} =     0.00000006 (   0.00024949)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.141814)} =    -0.00005516 (  -0.00742686)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.165550)} =     0.00001020 (   0.00319334)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.190537)} =    -0.00000748 (  -0.00273483)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.193849)} =     0.00006068 (   0.00778955)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.208485)} =     0.00002524 (   0.00502408)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.219575)} =    -0.00003256 (  -0.00570626)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.234655)} =    -0.00004904 (  -0.00700250)
+ RES{<<ZDIPLEN ,XDIPLEN >>(15.257830)} =    -0.00000646 (  -0.00254073)
+ RES{<<ZDIPLEN ,YDIPLEN >>(14.930293)} =    -0.00001709 (  -0.00413412)
+ RES{<<ZDIPLEN ,YDIPLEN >>(14.977846)} =    -0.00115953 (  -0.03405186)
+ RES{<<ZDIPLEN ,YDIPLEN >>(14.994288)} =     0.00051239 (   0.02263592)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.010885)} =     0.00046538 (   0.02157275)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.064505)} =     0.00000977 (   0.00312498)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.077153)} =     0.00011197 (   0.01058146)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.114274)} =     0.00000447 (   0.00211462)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.141814)} =    -0.00001246 (  -0.00352943)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.165550)} =     0.00000008 (   0.00028211)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.190537)} =     0.00001094 (   0.00330798)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.193849)} =    -0.00002711 (  -0.00520679)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.208485)} =    -0.00009052 (  -0.00951399)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.219575)} =    -0.00002209 (  -0.00469988)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.234655)} =     0.00004959 (   0.00704179)
+ RES{<<ZDIPLEN ,YDIPLEN >>(15.257830)} =     0.00001291 (   0.00359331)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(14.930293)} =     0.00000185 (   0.00136093)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(14.977846)} =     0.00337668 (   0.05810924)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(14.994288)} =     0.00048402 (   0.02200043)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.010885)} =     0.00008154 (   0.00903016)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.064505)} =     0.00000320 (   0.00178909)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.077153)} =     0.00003179 (   0.00563859)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.114274)} =     0.00000004 (   0.00019724)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.141814)} =     0.00001164 (   0.00341171)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.165550)} =     0.00000401 (   0.00200209)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.190537)} =     0.00000305 (   0.00174633)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.193849)} =     0.00005412 (   0.00735664)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.208485)} =     0.00007379 (   0.00859007)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.219575)} =     0.00001463 (   0.00382489)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.234655)} =     0.00005095 (   0.00713798)
+ RES{<<ZDIPLEN ,ZDIPLEN >>(15.257830)} =     0.00000135 (   0.00116000)
+
+
+ CCSD  Transition strength matrix for state nr.  1 of symmetry 1
+ CCSD  excitation energy:14.93029269
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.956486D-05  -7.895702D-05   8.564118D-06
+       2    -7.895702D-05   1.575694D-04  -1.709092D-05
+       3     8.564118D-06  -1.709092D-05   1.852126D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00019899
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.02812009     0.89463897    -0.44590400
+       2       0.09385235     0.44647284     0.88986164
+       3       0.99518892    -0.01682615    -0.09651883
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  1 of symmetry 1
+ CCSD  excitation energy:14.93029269
+
+
+               Column   1     Column   2     Column   3
+       1       0.00039381    -0.00078590     0.00008524
+       2      -0.00078590     0.00156837    -0.00017011
+       3       0.00008524    -0.00017011     0.00001844
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000002
+ 2       0.00000000
+ 3       0.00198063
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.02812009     0.89463897    -0.44590400
+       2       0.09385235     0.44647284     0.88986164
+       3       0.99518892    -0.01682615    -0.09651883
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  2 of symmetry 1
+ CCSD  excitation energy:14.97784586
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1       0.00025527     0.00031882    -0.00092843
+       2       0.00031882     0.00039817    -0.00115953
+       3      -0.00092843    -0.00115953     0.00337668
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00403013
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.60785020     0.75311139    -0.25167712
+       2       0.68463805    -0.65762568    -0.31432340
+       3       0.40222987    -0.01875381     0.91534661
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  2 of symmetry 1
+ CCSD  excitation energy:14.97784586
+
+
+               Column   1     Column   2     Column   3
+       1       0.00254897     0.00318344    -0.00927058
+       2       0.00318344     0.00397585    -0.01157817
+       3      -0.00927058    -0.01157817     0.03371696
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2       0.00000000
+ 3       0.04024179
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.60785020     0.75311139    -0.25167712
+       2       0.68463805    -0.65762568    -0.31432340
+       3       0.40222987    -0.01875381     0.91534661
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  3 of symmetry 1
+ CCSD  excitation energy:14.99428817
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1       0.00322296     0.00132218     0.00124899
+       2       0.00132218     0.00054241     0.00051239
+       3       0.00124899     0.00051239     0.00048402
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00424938
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.01443734    -0.49126309     0.87089158
+       2      -0.66780660     0.65298554     0.35727334
+       3       0.74419481     0.57642906     0.33749611
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  3 of symmetry 1
+ CCSD  excitation energy:14.99428817
+
+
+               Column   1     Column   2     Column   3
+       1       0.03221728     0.01321677     0.01248514
+       2       0.01321677     0.00542202     0.00512190
+       3       0.01248514     0.00512190     0.00483835
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000002
+ 2      -0.00000000
+ 3       0.04247767
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.01443734    -0.49126309     0.87089158
+       2      -0.66780660     0.65298554     0.35727334
+       3       0.74419481     0.57642906     0.33749611
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  4 of symmetry 1
+ CCSD  excitation energy:15.01088502
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1       0.00071357    -0.00137668    -0.00024122
+       2      -0.00137668     0.00265601     0.00046538
+       3      -0.00024122     0.00046538     0.00008154
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00345113
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.81703380    -0.35452822    -0.45471476
+       2       0.34217565    -0.33661489     0.87727205
+       3       0.46408145     0.87235323     0.15371482
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  4 of symmetry 1
+ CCSD  excitation energy:15.01088502
+
+
+               Column   1     Column   2     Column   3
+       1       0.00714091    -0.01377684    -0.00241397
+       2      -0.01377684     0.02657937     0.00465721
+       3      -0.00241397     0.00465721     0.00081603
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.03453632
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.81703380    -0.35452822    -0.45471476
+       2       0.34217565    -0.33661489     0.87727205
+       3       0.46408145     0.87235323     0.15371482
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  5 of symmetry 1
+ CCSD  excitation energy:15.06450550
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.134903D-06  -9.661975D-06  -3.168082D-06
+       2    -9.661975D-06   2.977682D-05   9.765476D-06
+       3    -3.168082D-06   9.765476D-06   3.200847D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00003611
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.23080542     0.92731940    -0.29463128
+       2      -0.36999927     0.19641227     0.90803236
+       3       0.89990522     0.31859215     0.29777448
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  5 of symmetry 1
+ CCSD  excitation energy:15.06450550
+
+
+               Column   1     Column   2     Column   3
+       1     3.148384D-05  -9.703525D-05  -3.181706D-05
+       2    -9.703525D-05   2.990487D-04   9.807471D-05
+       3    -3.181706D-05   9.807471D-05   3.214612D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000002
+ 2      -0.00000000
+ 3       0.00036270
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.23080542     0.92731940    -0.29463128
+       2      -0.36999927     0.19641227     0.90803236
+       3       0.89990522     0.31859215     0.29777448
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  6 of symmetry 1
+ CCSD  excitation energy:15.07715261
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     5.593937D-06  -4.696718D-05  -1.333928D-05
+       2    -4.696718D-05   3.942790D-04   1.119673D-04
+       3    -1.333928D-05   1.119673D-04   3.179374D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00043167
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.52120285     0.84580528    -0.11384646
+       2      -0.17511300     0.23654798     0.95570942
+       3       0.83527422    -0.47818247     0.27140098
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  6 of symmetry 1
+ CCSD  excitation energy:15.07715261
+
+
+               Column   1     Column   2     Column   3
+       1       0.00005623    -0.00047209    -0.00013408
+       2      -0.00047209     0.00396307     0.00112543
+       3      -0.00013408     0.00112543     0.00031957
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000004
+ 2      -0.00000000
+ 3       0.00433890
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.52120285     0.84580528    -0.11384646
+       2      -0.17511300     0.23654798     0.95570942
+       3       0.83527422    -0.47818247     0.27140098
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  7 of symmetry 1
+ CCSD  excitation energy:15.11427417
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     9.954590D-08   7.164313D-06   6.224444D-08
+       2     7.164313D-06   5.116695D-04   4.471608D-06
+       3     6.224444D-08   4.471608D-06   3.890373D-08
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00051181
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.90241413    -0.43064224     0.01399990
+       2      -0.01639818    -0.00185757     0.99986382
+       3       0.43055758     0.90252081     0.00873805
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  7 of symmetry 1
+ CCSD  excitation energy:15.11427417
+
+
+               Column   1     Column   2     Column   3
+       1       0.00000100     0.00007219     0.00000063
+       2       0.00007219     0.00515568     0.00004506
+       3       0.00000063     0.00004506     0.00000039
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00515708
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.90241413    -0.43064224     0.01399990
+       2      -0.01639818    -0.00185757     0.99986382
+       3       0.43055758     0.90252081     0.00873805
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  8 of symmetry 1
+ CCSD  excitation energy:15.14181376
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     2.613295D-04   5.902301D-05  -5.515829D-05
+       2     5.902301D-05   1.333035D-05  -1.245690D-05
+       3    -5.515829D-05  -1.245690D-05   1.163976D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00028630
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.26572070    -0.12890623     0.95539295
+       2      -0.33002036     0.91898050     0.21578090
+       3       0.90580300     0.37263658    -0.20165046
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  8 of symmetry 1
+ CCSD  excitation energy:15.14181376
+
+
+               Column   1     Column   2     Column   3
+       1       0.00263800     0.00059581    -0.00055680
+       2       0.00059581     0.00013456    -0.00012575
+       3      -0.00055680    -0.00012575     0.00011750
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000003
+ 2      -0.00000000
+ 3       0.00289009
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.26572070    -0.12890623     0.95539295
+       2      -0.33002036     0.91898050     0.21578090
+       3       0.90580300     0.37263658    -0.20165046
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr.  9 of symmetry 1
+ CCSD  excitation energy:15.16555024
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     2.594237D-05   2.021080D-07   1.019742D-05
+       2     2.021080D-07   8.816254D-10   7.958686D-08
+       3     1.019742D-05   7.958686D-08   4.008367D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00002995
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.06202774    -0.36059779     0.93065665
+       2       0.98220551     0.18766922     0.00725199
+       3      -0.17727066     0.91364626     0.36582184
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr.  9 of symmetry 1
+ CCSD  excitation energy:15.16555024
+
+
+               Column   1     Column   2     Column   3
+       1     2.622868D-04   2.043386D-06   1.030996D-04
+       2     2.043386D-06   8.913556D-09   8.046523D-07
+       3     1.030996D-04   8.046523D-07   4.052606D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2       0.00000000
+ 3       0.00030283
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.06202774    -0.36059779     0.93065665
+       2       0.98220551     0.18766922     0.00725199
+       3      -0.17727066     0.91364626     0.36582184
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 10 of symmetry 1
+ CCSD  excitation energy:15.19053735
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     1.830336D-05  -2.678285D-05  -7.479272D-06
+       2    -2.678285D-05   3.919034D-05   1.094276D-05
+       3    -7.479272D-06   1.094276D-05   3.049653D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00006055
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.23624412     0.80118305    -0.54981309
+       2      -0.10816454     0.58399603     0.80451791
+       3       0.96565478    -0.13059234     0.22462522
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 10 of symmetry 1
+ CCSD  excitation energy:15.19053735
+
+
+               Column   1     Column   2     Column   3
+       1     1.853586D-04  -2.712306D-04  -7.574278D-05
+       2    -2.712306D-04   3.968816D-04   1.108176D-04
+       3    -7.574278D-05   1.108176D-04   3.088391D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000006
+ 2       0.00000000
+ 3       0.00061318
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.23624412     0.80118305    -0.54981309
+       2      -0.10816454     0.58399603     0.80451791
+       3       0.96565478    -0.13059234     0.22462522
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 11 of symmetry 1
+ CCSD  excitation energy:15.19384892
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     6.801499D-05  -3.038416D-05   6.067705D-05
+       2    -3.038416D-05   1.357145D-05  -2.711069D-05
+       3     6.067705D-05  -2.711069D-05   5.412018D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00013572
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.36082177     0.60716024     0.70792944
+       2       0.60670053     0.72930714    -0.31626816
+       3       0.70832345    -0.31538473     0.63151434
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 11 of symmetry 1
+ CCSD  excitation energy:15.19384892
+
+
+               Column   1     Column   2     Column   3
+       1     6.889397D-04  -3.077682D-04   6.146120D-04
+       2    -3.077682D-04   1.374684D-04  -2.746105D-04
+       3     6.146120D-04  -2.746105D-04   5.481959D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000010
+ 2       0.00000000
+ 3       0.00137471
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1      -0.36082177     0.60716024     0.70792944
+       2       0.60670053     0.72930714    -0.31626816
+       3       0.70832345    -0.31538473     0.63151434
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 12 of symmetry 1
+ CCSD  excitation energy:15.20848458
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     8.631307D-06  -3.096015D-05   2.524138D-05
+       2    -3.096015D-05   1.110315D-04  -9.051605D-05
+       3     2.524138D-05  -9.051605D-05   7.378932D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2       0.00000000
+ 3       0.00019346
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.78279780     0.58532110    -0.21125058
+       2      -0.24725043     0.60409236     0.75758804
+       3      -0.57104713     0.54080646    -0.61760307
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 12 of symmetry 1
+ CCSD  excitation energy:15.20848458
+
+
+               Column   1     Column   2     Column   3
+       1       0.00008751    -0.00031390     0.00025592
+       2      -0.00031390     0.00112575    -0.00091774
+       3       0.00025592    -0.00091774     0.00074815
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000003
+ 2      -0.00000000
+ 3       0.00196144
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.78279780     0.58532110    -0.21125058
+       2      -0.24725043     0.60409236     0.75758804
+       3      -0.57104713     0.54080646    -0.61760307
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 13 of symmetry 1
+ CCSD  excitation energy:15.21957492
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     7.246785D-05   4.916117D-05  -3.256145D-05
+       2     4.916117D-05   3.335007D-05  -2.208886D-05
+       3    -3.256145D-05  -2.208886D-05   1.462980D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00012045
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.49569288    -0.39068740     0.77566225
+       2      -0.16607474     0.83398826     0.52619651
+       3       0.85247156     0.38964977    -0.34851873
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 13 of symmetry 1
+ CCSD  excitation energy:15.21957492
+
+
+               Column   1     Column   2     Column   3
+       1     7.352865D-04   4.988080D-04  -3.303809D-04
+       2     4.988080D-04   3.383826D-04  -2.241220D-04
+       3    -3.303809D-04  -2.241220D-04   1.484396D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00122212
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.49569288    -0.39068740     0.77566225
+       2      -0.16607474     0.83398826     0.52619651
+       3       0.85247156     0.38964977    -0.34851873
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 14 of symmetry 1
+ CCSD  excitation energy:15.23465496
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     4.719114D-05  -4.772190D-05  -4.903504D-05
+       2    -4.772190D-05   4.825816D-05   4.958686D-05
+       3    -4.903504D-05   4.958686D-05   5.095076D-05
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00014640
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.07833555     0.81946402    -0.56775194
+       2       0.75106679     0.32598393     0.57413689
+       3      -0.65556253     0.47139495     0.58993608
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 14 of symmetry 1
+ CCSD  excitation energy:15.23465496
+
+
+               Column   1     Column   2     Column   3
+       1     4.792938D-04  -4.846844D-04  -4.980213D-04
+       2    -4.846844D-04   4.901309D-04   5.036258D-04
+       3    -4.980213D-04   5.036258D-04   5.174782D-04
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2      -0.00000000
+ 3       0.00148691
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.07833555     0.81946402    -0.56775194
+       2       0.75106679     0.32598393     0.57413689
+       3      -0.65556253     0.47139495     0.58993608
+    ==== End of matrix output ====
+
+
+ CCSD  Transition strength matrix for state nr. 15 of symmetry 1
+ CCSD  excitation energy:15.25782957
+
+ Gauge: length
+
+               Column   1     Column   2     Column   3
+       1     3.095305D-05  -6.191607D-05  -6.455304D-06
+       2    -6.191607D-05   1.238511D-04   1.291188D-05
+       3    -6.455304D-06   1.291188D-05   1.345596D-06
+    ==== End of matrix output ====
+
+ Principal values of diagonalized transition strength matrix:
+
+             a.u.               
+ 1      -0.00000000
+ 2      -0.00000000
+ 3       0.00015615
+
+ Principal axis of diagonalized transition strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.49980014     0.74294879    -0.44522682
+       2       0.16113933     0.42530192     0.89059103
+       3       0.85101935    -0.51686107     0.09284769
+    ==== End of matrix output ====
+
+
+ CCSD   oscillator strength matrix for state nr. 15 of symmetry 1
+ CCSD  excitation energy:15.25782957
+
+
+               Column   1     Column   2     Column   3
+       1       0.00031485    -0.00062980    -0.00006566
+       2      -0.00062980     0.00125980     0.00013134
+       3      -0.00006566     0.00013134     0.00001369
+    ==== End of matrix output ====
+
+ Principal values of diagonalized oscillator strength matrix:
+
+             a.u.               
+ 1      -0.00000001
+ 2       0.00000000
+ 3       0.00158835
+
+ Principal axis of diagonalized oscillator strength matrix:
+
+
+               Column   1     Column   2     Column   3
+       1       0.49980014     0.74294879    -0.44522682
+       2       0.16113933     0.42530192     0.89059103
+       3       0.85101935    -0.51686107     0.09284769
+    ==== End of matrix output ====
+
+  Total time for    135 linear response residues:     330.81 seconds.
+  
+
+ *******************************************************************************
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *                   SUMMARY OF COUPLED CLUSTER CALCULATION                    *
+ *                                                                             *
+ *                                                                             *
+ *******************************************************************************
+ *******************************************************************************
+
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.2085108921                
+            Total MP2   energy:                  -362.3148356285                
+            Total CCSD  energy:                  -362.3565628984                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.2085108921                
+            Total RSTAR energy:                  -362.3565628984                
+            Total CCSD  energy:                  -362.3567066206                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.2085108921                
+            Total RSTAR energy:                  -362.3567066206                
+            Total CCSD  energy:                  -362.3567070858                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.2085108921                
+            Total RSTAR energy:                  -362.3567070858                
+            Total CCSD  energy:                  -362.3567071444                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.2085108921                
+            Total RSTAR energy:                  -362.3567071444                
+            Total CCSD  energy:                  -362.3567071443                
+                                                                                
+                                                                                
+            Total SCF   energy:                  -361.2085108921                
+            Total RSTAR energy:                  -362.3567071443                
+            Total CCSD  energy:                  -362.3567071444                
+            CCSD Total  energy:                  -362.8005077136                
+            CCSD E(QM/MM)     :                    -0.4393365968                
+                                                                                
+                                                                                
+                                                                                
+ +=============================================================================+
+ |  sym. | Exci.  |        CCSD       Excitation energies            | ||T1||  |
+ |(spin, |        +------------------------------------------------------------+
+ | spat) |        |     Hartree    |       eV.      |     cm-1       |    %    |
+ +=============================================================================+
+ | ^1A   |    1   |    14.9302927  |     406.27393  |   3276820.454  |  88.54  |
+ | ^1A   |    2   |    14.9778459  |     407.56792  |   3287257.169  |  88.97  |
+ | ^1A   |    3   |    14.9942882  |     408.01534  |   3290865.839  |  89.05  |
+ | ^1A   |    4   |    15.0108850  |     408.46696  |   3294508.426  |  88.72  |
+ | ^1A   |    5   |    15.0645055  |     409.92605  |   3306276.760  |  88.05  |
+ | ^1A   |    6   |    15.0771526  |     410.27019  |   3309052.480  |  88.13  |
+ | ^1A   |    7   |    15.1142742  |     411.28032  |   3317199.722  |  88.04  |
+ | ^1A   |    8   |    15.1418138  |     412.02971  |   3323243.962  |  88.04  |
+ | ^1A   |    9   |    15.1655502  |     412.67561  |   3328453.518  |  88.12  |
+ | ^1A   |   10   |    15.1905374  |     413.35555  |   3333937.555  |  87.93  |
+ | ^1A   |   11   |    15.1938489  |     413.44566  |   3334664.359  |  88.18  |
+ | ^1A   |   12   |    15.2084846  |     413.84392  |   3337876.516  |  88.12  |
+ | ^1A   |   13   |    15.2195749  |     414.14570  |   3340310.565  |  88.17  |
+ | ^1A   |   14   |    15.2346550  |     414.55605  |   3343620.251  |  88.14  |
+ | ^1A   |   15   |    15.2578296  |     415.18666  |   3348706.489  |  87.89  |
+ +=============================================================================+
+                                                                                
+                                                                                
+     Total energies in Hartree:                                                 
+             1 ^1A       -347.4308784279                                        
+             2 ^1A       -347.3833252537                                        
+             3 ^1A       -347.3668829445                                        
+             4 ^1A       -347.3502860961                                        
+             5 ^1A       -347.2966656189                                        
+             6 ^1A       -347.2840185115                                        
+             7 ^1A       -347.2468969453                                        
+             8 ^1A       -347.2193573606                                        
+             9 ^1A       -347.1956208746                                        
+            10 ^1A       -347.1706337629                                        
+            11 ^1A       -347.1673221997                                        
+            12 ^1A       -347.1526865356                                        
+            13 ^1A       -347.1415961930                                        
+            14 ^1A       -347.1265161562                                        
+            15 ^1A       -347.1033415487                                        
+                                                                                
+                                                                                
+ +=============================================================================+
+ |  sym. | Exci.  |        CCSD       Length   Gauge Oscillator Strength       |
+ |(spin, |        +------------------------------------------------------------+
+ | spat) |        | Dipole Strength(a.u.) | Oscillator strength  | Direction   |
+ +=============================================================================+
+ | ^1A   |    1   |        0.0001990      |      0.0019806       |  (Y,Z)      |
+ | ^1A   |    2   |        0.0040301      |      0.0402418       |  (Y,Z)      |
+ | ^1A   |    3   |        0.0042494      |      0.0424776       |  (Y,Z)      |
+ | ^1A   |    4   |        0.0034511      |      0.0345363       |  (Y,Z)      |
+ | ^1A   |    5   |        0.0000361      |      0.0003627       |  (Y,Z)      |
+ | ^1A   |    6   |        0.0004317      |      0.0043389       |  (Y,Z)      |
+ | ^1A   |    7   |        0.0005118      |      0.0051571       |  (Y,Z)      |
+ | ^1A   |    8   |        0.0002863      |      0.0028901       |  (Y,Z)      |
+ | ^1A   |    9   |        0.0000300      |      0.0003028       |  (Y,Z)      |
+ | ^1A   |   10   |        0.0000605      |      0.0006131       |  (Y,Z)      |
+ | ^1A   |   11   |        0.0001357      |      0.0013746       |  (Y,Z)      |
+ | ^1A   |   12   |        0.0001935      |      0.0019614       |  (Y,Z)      |
+ | ^1A   |   13   |        0.0001204      |      0.0012221       |  (Y,Z)      |
+ | ^1A   |   14   |        0.0001464      |      0.0014869       |  (Y,Z)      |
+ | ^1A   |   15   |        0.0001561      |      0.0015883       |  (Y,Z)      |
+ +=============================================================================+
+
+  1 a.u. =        27.21138 eV.  
+  1 a.u. =    219474.62934 cm-1.
+  
+
+ *******************************************************************************
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *                      END OF COUPLED CLUSTER CALCULATION                     *
+ *                                                                             *
+ *                                                                             *
+ *******************************************************************************
+ *******************************************************************************
+
+
+ CPU and wall time for CC :  645636.424  139215.931
+
+ 
+     Date and time (Linux)  : Sat Dec  1 03:09:03 2018
+     Host name              : n-62-23-19                              
+
+
+                      .-------------------------------------.
+                      | End of Coupled Cluster Section (CC) |
+                      `-------------------------------------'
+
+  Total CPU  time used in DALTON: 179 hours 36 minutes 59 seconds
+  Total wall time used in DALTON:  38 hours 44 minutes  3 seconds
+
+ 
+     Date and time (Linux)  : Sat Dec  1 03:09:03 2018
+     Host name              : n-62-23-19                              
+  
+
+ +---------------------------------------------------------+ 
+ | List of selected calculated molecular properties (a.u.) | 
+ +---------------------------------------------------------+ 
+
+  Properties are read from unit number                      4
+
+ CCSD       properties :
+ #  1 1 CCSD/MM  Ground state Energy =    -362.8005077136
+ #  2 1 E_QM/MM  Ground state Energy =      -0.4393365968
+ #  3 1 Sy: 1 Sp: 1 Exc:  1 E_tot:   -347.4308784279 w:     14.9302926890 E_grs:   -362.3611711169
+ #  4 1 Exctot   Excited state Energy =    -347.4308784279
+ #  5 1 Sy: 1 Sp: 1 Exc:  2 E_tot:   -347.3833252537 w:     14.9778458632 E_grs:   -362.3611711169
+ #  6 1 Exctot   Excited state Energy =    -347.3833252537
+ #  7 1 Sy: 1 Sp: 1 Exc:  3 E_tot:   -347.3668829445 w:     14.9942881724 E_grs:   -362.3611711169
+ #  8 1 Exctot   Excited state Energy =    -347.3668829445
+ #  9 1 Sy: 1 Sp: 1 Exc:  4 E_tot:   -347.3502860961 w:     15.0108850208 E_grs:   -362.3611711169
+ # 10 1 Exctot   Excited state Energy =    -347.3502860961
+ # 11 1 Sy: 1 Sp: 1 Exc:  5 E_tot:   -347.2966656189 w:     15.0645054980 E_grs:   -362.3611711169
+ # 12 1 Exctot   Excited state Energy =    -347.2966656189
+ # 13 1 Sy: 1 Sp: 1 Exc:  6 E_tot:   -347.2840185115 w:     15.0771526053 E_grs:   -362.3611711169
+ # 14 1 Exctot   Excited state Energy =    -347.2840185115
+ # 15 1 Sy: 1 Sp: 1 Exc:  7 E_tot:   -347.2468969453 w:     15.1142741716 E_grs:   -362.3611711169
+ # 16 1 Exctot   Excited state Energy =    -347.2468969453
+ # 17 1 Sy: 1 Sp: 1 Exc:  8 E_tot:   -347.2193573606 w:     15.1418137563 E_grs:   -362.3611711169
+ # 18 1 Exctot   Excited state Energy =    -347.2193573606
+ # 19 1 Sy: 1 Sp: 1 Exc:  9 E_tot:   -347.1956208746 w:     15.1655502423 E_grs:   -362.3611711169
+ # 20 1 Exctot   Excited state Energy =    -347.1956208746
+ # 21 1 Sy: 1 Sp: 1 Exc: 10 E_tot:   -347.1706337629 w:     15.1905373540 E_grs:   -362.3611711169
+ # 22 1 Exctot   Excited state Energy =    -347.1706337629
+ # 23 1 Sy: 1 Sp: 1 Exc: 11 E_tot:   -347.1673221997 w:     15.1938489172 E_grs:   -362.3611711169
+ # 24 1 Exctot   Excited state Energy =    -347.1673221997
+ # 25 1 Sy: 1 Sp: 1 Exc: 12 E_tot:   -347.1526865356 w:     15.2084845813 E_grs:   -362.3611711169
+ # 26 1 Exctot   Excited state Energy =    -347.1526865356
+ # 27 1 Sy: 1 Sp: 1 Exc: 13 E_tot:   -347.1415961930 w:     15.2195749239 E_grs:   -362.3611711169
+ # 28 1 Exctot   Excited state Energy =    -347.1415961930
+ # 29 1 Sy: 1 Sp: 1 Exc: 14 E_tot:   -347.1265161562 w:     15.2346549607 E_grs:   -362.3611711169
+ # 30 1 Exctot   Excited state Energy =    -347.1265161562
+ # 31 1 Sy: 1 Sp: 1 Exc: 15 E_tot:   -347.1033415487 w:     15.2578295682 E_grs:   -362.3611711169
+ # 32 1 Exctot   Excited state Energy =    -347.1033415487
+ # 33 1 |<O|XDIPLEN |i(14.930293)>| =     0.00629006
+ # 35 1 |<O|XDIPLEN |i(14.977846)>| =     0.01597728
+ # 37 1 |<O|XDIPLEN |i(14.994288)>| =     0.05677108
+ # 39 1 |<O|XDIPLEN |i(15.010885)>| =     0.02671279
+ # 41 1 |<O|XDIPLEN |i(15.064505)>| =     0.00177057
+ # 43 1 |<O|XDIPLEN |i(15.077153)>| =     0.00236515
+ # 45 1 |<O|XDIPLEN |i(15.114274)>| =     0.00031551
+ # 47 1 |<O|XDIPLEN |i(15.141814)>| =     0.01616569
+ # 49 1 |<O|XDIPLEN |i(15.165550)>| =     0.00509336
+ # 51 1 |<O|XDIPLEN |i(15.190537)>| =     0.00427824
+ # 53 1 |<O|XDIPLEN |i(15.193849)>| =     0.00824712
+ # 55 1 |<O|XDIPLEN |i(15.208485)>| =     0.00293791
+ # 57 1 |<O|XDIPLEN |i(15.219575)>| =     0.00851280
+ # 59 1 |<O|XDIPLEN |i(15.234655)>| =     0.00686958
+ # 61 1 |<O|XDIPLEN |i(15.257830)>| =     0.00556355
+ # 63 1 |<O|YDIPLEN |i(14.930293)>| =     0.01255266
+ # 65 1 |<O|YDIPLEN |i(14.977846)>| =     0.01995428
+ # 67 1 |<O|YDIPLEN |i(14.994288)>| =     0.02328966
+ # 69 1 |<O|YDIPLEN |i(15.010885)>| =     0.05153648
+ # 71 1 |<O|YDIPLEN |i(15.064505)>| =     0.00545681
+ # 73 1 |<O|YDIPLEN |i(15.077153)>| =     0.01985646
+ # 75 1 |<O|YDIPLEN |i(15.114274)>| =     0.02262011
+ # 77 1 |<O|YDIPLEN |i(15.141814)>| =     0.00365108
+ # 79 1 |<O|YDIPLEN |i(15.165550)>| =     0.00002969
+ # 81 1 |<O|YDIPLEN |i(15.190537)>| =     0.00626022
+ # 83 1 |<O|YDIPLEN |i(15.193849)>| =     0.00368394
+ # 85 1 |<O|YDIPLEN |i(15.208485)>| =     0.01053715
+ # 87 1 |<O|YDIPLEN |i(15.219575)>| =     0.00577495
+ # 89 1 |<O|YDIPLEN |i(15.234655)>| =     0.00694681
+ # 91 1 |<O|YDIPLEN |i(15.257830)>| =     0.01112884
+ # 93 1 |<O|ZDIPLEN |i(14.930293)>| =     0.00136093
+ # 95 1 |<O|ZDIPLEN |i(14.977846)>| =     0.05810924
+ # 97 1 |<O|ZDIPLEN |i(14.994288)>| =     0.02200043
+ # 99 1 |<O|ZDIPLEN |i(15.010885)>| =     0.00903016
+ #101 1 |<O|ZDIPLEN |i(15.064505)>| =     0.00178909
+ #103 1 |<O|ZDIPLEN |i(15.077153)>| =     0.00563859
+ #105 1 |<O|ZDIPLEN |i(15.114274)>| =     0.00019724
+ #107 1 |<O|ZDIPLEN |i(15.141814)>| =     0.00341171
+ #109 1 |<O|ZDIPLEN |i(15.165550)>| =     0.00200209
+ #111 1 |<O|ZDIPLEN |i(15.190537)>| =     0.00174633
+ #113 1 |<O|ZDIPLEN |i(15.193849)>| =     0.00735664
+ #115 1 |<O|ZDIPLEN |i(15.208485)>| =     0.00859007
+ #117 1 |<O|ZDIPLEN |i(15.219575)>| =     0.00382489
+ #119 1 |<O|ZDIPLEN |i(15.234655)>| =     0.00713798
+ #121 1 |<O|ZDIPLEN |i(15.257830)>| =     0.00116000
+
+ THE_END   
